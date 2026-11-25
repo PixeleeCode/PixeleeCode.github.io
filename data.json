@@ -1,0 +1,4356 @@
+{
+  "version": "2026.11.25.1",
+  "items": [
+    {
+      "id": "t001",
+      "chapter": "c1",
+      "cat": "Mission secondaire",
+      "title": "Récupérer le rhum de Shirley (Get Shirley’s Rum)",
+      "description": "Rendre service à Shirley, voisine de Jason. Mission réservée au chapitre 1.",
+      "deadline": "Avant Piège à touristes (Tourist Trap)",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        12,
+        9,
+        5,
+        44,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "group": "missions",
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant de lancer Piège à touristes (Tourist Trap)",
+        "note": "Les deux services de Shirley disparaissent à la transition du chapitre 1."
+      }
+    },
+    {
+      "id": "t002",
+      "chapter": "c1",
+      "cat": "Mission secondaire",
+      "title": "Voler le scooter (Steal the Scooter)",
+      "description": "Faire le deuxième service de Shirley après Récupérer le rhum de Shirley (Get Shirley’s Rum).",
+      "deadline": "Avant Piège à touristes (Tourist Trap)",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        12,
+        9,
+        5,
+        44,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "group": "missions",
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant de lancer Piège à touristes (Tourist Trap)",
+        "note": "Les deux services de Shirley disparaissent à la transition du chapitre 1."
+      }
+    },
+    {
+      "id": "t003",
+      "chapter": "c1",
+      "cat": "Succès potentiel",
+      "title": "Méditer avec Lucia sur le balcon",
+      "description": "Après Terre à terre (Down to Earth), parler à Lucia le matin dans la cuisine puis l’accompagner sur le balcon et accepter sa proposition. Son importance pour le succès Attitude mentale positive (Positive Mental Attitude) n’est pas encore tranchée.",
+      "deadline": "Après Terre à terre (Down to Earth) · avant la fin du chap. 1",
+      "sev": "critique",
+      "confidence": "incertain",
+      "sources": [
+        2,
+        0,
+        5,
+        44,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Avant de lancer Piège à touristes (Tourist Trap)",
+        "note": "La scène initiale peut être perdue ; le succès et la méditation ultérieure ne sont pas établis comme définitivement manquables."
+      },
+      "location": "Cuisine puis balcon de la maison de Jason",
+      "characters": [
+        "Jason"
+      ]
+    },
+    {
+      "id": "t004",
+      "chapter": "c1",
+      "cat": "Objet unique",
+      "title": "Revolver H&L .38 de Donnie",
+      "description": "Dans ByeBye Don (Don Gone), ouvrir le coffre de la voiture de Donnie et récupérer le revolver AVANT de détruire le véhicule.",
+      "deadline": "Pendant ByeBye Don (Don Gone)",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        11,
+        15,
+        23,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "group": "weapons",
+      "risk": {
+        "kind": "missable",
+        "limit": "Pendant ByeBye Don (Don Gone), avant de détruire la voiture",
+        "note": "La variante unique ne peut plus être prise dans le coffre après sa destruction."
+      },
+      "location": "Voiture de Donnie, pendant ByeBye Don"
+    },
+    {
+      "id": "t005",
+      "chapter": "c1",
+      "cat": "Activité",
+      "title": "Récupérer les drogues perdues de Donnie",
+      "description": "Après Terre à terre (Down to Earth), suivre les indices de Cal pour les paquets de Mariana County ; un autre lieu devient accessible après Bourbier (Swamped).",
+      "deadline": "Avant Piège à touristes (Tourist Trap)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        5,
+        1,
+        9,
+        47
+      ],
+      "spoiler": false,
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Avant Piège à touristes (Tourist Trap)",
+        "note": "À effectuer par précaution ; la perte définitive des paquets n’est pas établie."
+      }
+    },
+    {
+      "id": "t006",
+      "chapter": "c1",
+      "cat": "Mission secondaire",
+      "title": "Sonne la cloche ! (Ring the Bell!) avec Cal",
+      "description": "Quand Cal propose de se retrouver, passer au Rusty Anchor avant de progresser. Cette activité et ses articles thématiques sont signalés comme limités au chapitre 1.",
+      "deadline": "À l’invitation de Cal · avant Bourbier (Swamped)",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        7,
+        9,
+        44,
+        47
+      ],
+      "spoiler": false,
+      "group": "missions",
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant de rejoindre Brian dans Bourbier (Swamped)",
+        "note": "Terminer l’activité lorsque Cal envoie son invitation."
+      }
+    },
+    {
+      "id": "t007",
+      "chapter": "c1",
+      "cat": "Préparation",
+      "title": "Faire les courses pour le retour de Lucia",
+      "description": "Mission facultative Récupérer les courses (Pick up Groceries) / Déposer les courses (Drop Off Groceries) avant de venir la chercher.",
+      "deadline": "Avant Enfin libre (Coming Home)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        1,
+        8,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant Enfin libre (Coming Home) (aller chercher Lucia)",
+        "note": "Les préparatifs facultatifs de cette séquence ne peuvent pas être rejoués après son avancement."
+      },
+      "characters": [
+        "Jason"
+      ]
+    },
+    {
+      "id": "t008",
+      "chapter": "c1",
+      "cat": "Préparation",
+      "title": "Acheter des fleurs",
+      "description": "Mission facultative Acheter des fleurs (Buy Flowers) pour préparer le retour de Lucia.",
+      "deadline": "Avant Enfin libre (Coming Home)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        1,
+        8,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant Enfin libre (Coming Home) (aller chercher Lucia)",
+        "note": "Les préparatifs facultatifs de cette séquence ne peuvent pas être rejoués après son avancement."
+      },
+      "characters": [
+        "Jason"
+      ]
+    },
+    {
+      "id": "t009",
+      "chapter": "c1",
+      "cat": "Préparation",
+      "title": "Acheter un collier pour Lucia",
+      "description": "Mission facultative Acheter un collier à Lucia (Buy Lucia a Necklace) à The Siren’s Chest ; peut avoir un suivi au chapitre 2.",
+      "deadline": "Avant Enfin libre (Coming Home)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        1,
+        7,
+        6,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant Enfin libre (Coming Home) (aller chercher Lucia)",
+        "note": "Les préparatifs facultatifs de cette séquence ne peuvent pas être rejoués après son avancement."
+      },
+      "characters": [
+        "Jason"
+      ]
+    },
+    {
+      "id": "t010",
+      "chapter": "c1",
+      "cat": "Préparation",
+      "title": "Passer chez le coiffeur (The Chop)",
+      "description": "Mission facultative Get The Chop.",
+      "deadline": "Avant Enfin libre (Coming Home)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        1,
+        8,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant Enfin libre (Coming Home) (aller chercher Lucia)",
+        "note": "Les préparatifs facultatifs de cette séquence ne peuvent pas être rejoués après son avancement."
+      },
+      "characters": [
+        "Jason"
+      ]
+    },
+    {
+      "id": "t011",
+      "chapter": "c1",
+      "cat": "Préparation",
+      "title": "Récupérer des vêtements pour Lucia",
+      "description": "Mission facultative Get Lucia’s Clothes : attention à la limite indiquée par le sablier.",
+      "deadline": "Avant Enfin libre (Coming Home)",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        1,
+        9,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant Enfin libre (Coming Home) (aller chercher Lucia)",
+        "note": "Les préparatifs facultatifs de cette séquence ne peuvent pas être rejoués après son avancement."
+      },
+      "characters": [
+        "Jason"
+      ]
+    },
+    {
+      "id": "t012",
+      "chapter": "c1",
+      "cat": "Objet",
+      "title": "Ramasser la boîte de cigares Macizo",
+      "description": "Lors de Plomberie (Pipework), récupérer les cigares jetés près de la maison de Mandy.",
+      "deadline": "Pendant Plomberie (Pipework)",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        7,
+        8,
+        47
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Pendant Plomberie (Pipework), avant de quitter la scène",
+        "note": "Fenêtre de récupération signalée ; exclusivité de l’objet non établie."
+      }
+    },
+    {
+      "id": "t013",
+      "chapter": "c1",
+      "cat": "Objet",
+      "title": "Récupérer les lunettes sur le yacht",
+      "description": "Pendant Permission de sortie (Day Release), parler au couple près de la rambarde sur le pont intermédiaire.",
+      "deadline": "Pendant Permission de sortie (Day Release)",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        7,
+        47
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Pendant Permission de sortie (Day Release), avant de quitter le yacht",
+        "note": "La récupération des lunettes est signalée pendant cette séquence."
+      }
+    },
+    {
+      "id": "t014",
+      "chapter": "c1",
+      "cat": "Objet",
+      "title": "Prendre les lunettes de Donnie",
+      "description": "Dans ByeBye Don (Don Gone), inspecter la salle de bain de la caravane.",
+      "deadline": "Pendant ByeBye Don (Don Gone)",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        7,
+        44,
+        47
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "missable",
+        "limit": "Pendant ByeBye Don (Don Gone), avant de quitter la caravane",
+        "note": "Récupérer les lunettes sur l’étagère de la salle de bain."
+      }
+    },
+    {
+      "id": "t015",
+      "chapter": "c1",
+      "cat": "Objet",
+      "title": "Tenter de récupérer la veste d’Andy",
+      "description": "Pendant Home Sweet Home, appeler Andy puis rejoindre le point indiqué sans être repéré ; récompense vestimentaire signalée.",
+      "deadline": "Pendant Home Sweet Home",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        7
+      ],
+      "spoiler": true,
+      "group": "secrets",
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Pendant Home Sweet Home, avant la fin de la mission",
+        "note": "La veste et ses conditions sont encore à vérifier."
+      }
+    },
+    {
+      "id": "t016",
+      "chapter": "c1",
+      "cat": "Magazine",
+      "title": "Les cendres de la gloire (Ashes of Glory)",
+      "description": "Maison de Jason : sur la commode ou table près du lit. Cet exemplaire disparaît avec le logement.",
+      "deadline": "Avant Piège à touristes (Tourist Trap)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        3,
+        5,
+        44,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "location",
+        "limit": "Avant Piège à touristes (Tourist Trap)",
+        "note": "L’exemplaire dans la maison de Jason devient inaccessible ; la disponibilité d’un autre exemplaire dépend de l’objet."
+      }
+    },
+    {
+      "id": "t017",
+      "chapter": "c1",
+      "cat": "Magazine",
+      "title": "Conçu pour tuer (Lethal By Design)",
+      "description": "Maison de Jason : sur la table de la salle à manger / salon.",
+      "deadline": "Avant Piège à touristes (Tourist Trap)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        3,
+        5,
+        44,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "location",
+        "limit": "Avant Piège à touristes (Tourist Trap)",
+        "note": "L’exemplaire dans la maison de Jason devient inaccessible ; la disponibilité d’un autre exemplaire dépend de l’objet."
+      }
+    },
+    {
+      "id": "t018",
+      "chapter": "c1",
+      "cat": "Magazine",
+      "title": "Orca : un animal bien différent (Orca: A Whole Different Animal)",
+      "description": "Maison de Jason : près de la fenêtre avec la radio.",
+      "deadline": "Avant Piège à touristes (Tourist Trap)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        3,
+        5,
+        44,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "location",
+        "limit": "Avant Piège à touristes (Tourist Trap)",
+        "note": "L’exemplaire dans la maison de Jason devient inaccessible ; la disponibilité d’un autre exemplaire dépend de l’objet."
+      }
+    },
+    {
+      "id": "t019",
+      "chapter": "c1",
+      "cat": "Magazine",
+      "title": "Magazine de musculation (Body Copy)",
+      "description": "Maison de Jason : balcon, près du barbecue et des poids.",
+      "deadline": "Avant Piège à touristes (Tourist Trap)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        3,
+        5,
+        44,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "location",
+        "limit": "Avant Piège à touristes (Tourist Trap)",
+        "note": "L’exemplaire dans la maison de Jason devient inaccessible ; la disponibilité d’un autre exemplaire dépend de l’objet."
+      }
+    },
+    {
+      "id": "t020",
+      "chapter": "c1",
+      "cat": "Magazine",
+      "title": "Magazine de pêche (Off the Hook)",
+      "description": "Maison de Jason : local de rangement / atelier sous la maison.",
+      "deadline": "Avant Piège à touristes (Tourist Trap)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        3,
+        5,
+        44,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "location",
+        "limit": "Avant Piège à touristes (Tourist Trap)",
+        "note": "L’exemplaire dans la maison de Jason devient inaccessible ; la disponibilité d’un autre exemplaire dépend de l’objet."
+      }
+    },
+    {
+      "id": "t021",
+      "chapter": "c1",
+      "cat": "Argent",
+      "title": "Protéger son argent avant le départ",
+      "description": "Ne pas compter sur le liquide emporté lors du changement de chapitre. Plusieurs guides signalent que seuls des montants placés dans Family Savings (jusqu’à 5 000 $) seraient préservés ; mécanisme à confirmer.",
+      "deadline": "Avant Piège à touristes (Tourist Trap)",
+      "sev": "critique",
+      "confidence": "signale",
+      "sources": [
+        9,
+        10,
+        8,
+        44,
+        23,
+        47
+      ],
+      "spoiler": false,
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant Piège à touristes (Tourist Trap)",
+        "note": "Les guides signalent la perte du liquide et du compte courant à la transition ; vérifier les règles de Family Savings avant de transférer."
+      }
+    },
+    {
+      "id": "t022",
+      "chapter": "c1",
+      "cat": "Préparation",
+      "title": "Faire une sauvegarde manuelle distincte",
+      "description": "Garder un emplacement dédié à la situation avant la mission Piège à touristes (Tourist Trap) ; ne pas l’écraser.",
+      "deadline": "Avant Piège à touristes (Tourist Trap)",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        0,
+        4,
+        14,
+        47
+      ],
+      "spoiler": false
+    },
+    {
+      "id": "t023",
+      "chapter": "c1",
+      "cat": "Activité",
+      "title": "Utiliser Donnie et Brian comme receleurs tant qu’ils sont présents",
+      "description": "Certains points de revente disparaissent pendant ou après le chapitre. Cela ne bloque pas les succès.",
+      "deadline": "Avant la disparition des contacts",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        0,
+        7,
+        9,
+        47
+      ],
+      "spoiler": false,
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Avant Piège à touristes (Tourist Trap)",
+        "note": "La disponibilité de ces contacts change ; perte définitive du service non établie."
+      }
+    },
+    {
+      "id": "t024",
+      "chapter": "c1",
+      "cat": "Argent",
+      "title": "Vérifier la boîte aux lettres de Jason",
+      "description": "Des paiements associés à Lab Fees et Clean Up After Donnie peuvent être récupérables plus tard.",
+      "deadline": "Avant Piège à touristes (Tourist Trap)",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        8,
+        47
+      ],
+      "spoiler": false,
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Avant Piège à touristes (Tourist Trap)",
+        "note": "Vérifier les paiements ; certains pourraient être récupérables plus tard."
+      }
+    },
+    {
+      "id": "t025",
+      "chapter": "c2",
+      "cat": "Carte",
+      "title": "Carte Vicki",
+      "description": "Starlet Motel : salle de bain du bureau, au sol près des toilettes. Un autre exemplaire est signalé ailleurs dans le monde.",
+      "deadline": "Avant Quitter le motel (Checking Out)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        6,
+        9,
+        44
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "location",
+        "limit": "Avant Quitter le motel (Checking Out), par précaution",
+        "note": "Un autre exemplaire est signalé ; certains guides rapportent que la carte reste accessible au motel."
+      }
+    },
+    {
+      "id": "t026",
+      "chapter": "c2",
+      "cat": "Carte",
+      "title": "Carte Victor Maravilla",
+      "description": "Starlet Motel : cuisine / réfrigérateur. Un autre exemplaire existe ailleurs.",
+      "deadline": "Avant Quitter le motel (Checking Out)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        6,
+        9,
+        44,
+        10
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "location",
+        "limit": "Avant Quitter le motel (Checking Out)",
+        "note": "L’emplacement du réfrigérateur est perdu ; un autre exemplaire est signalé dans le guide, donc pas de perte définitive affirmée."
+      }
+    },
+    {
+      "id": "t027",
+      "chapter": "c2",
+      "cat": "Carte",
+      "title": "Carte Bryson Powers",
+      "description": "Starlet Motel : buanderie, sur une machine à laver. La nécessité de la prendre avant le départ reste incertaine.",
+      "deadline": "Pendant le chapitre 2",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        6,
+        44
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Avant Quitter le motel (Checking Out), par précaution",
+        "note": "L’accessibilité ultérieure de cet exemplaire reste incertaine."
+      }
+    },
+    {
+      "id": "t028",
+      "chapter": "c2",
+      "cat": "Magazine",
+      "title": "Aide-moi à t’aider (Help Me Help You Help Me)",
+      "description": "Starlet Motel : table de l’accueil ou de la réception.",
+      "deadline": "Avant Quitter le motel (Checking Out)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        3,
+        6,
+        10,
+        44
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "location",
+        "limit": "Avant Quitter le motel (Checking Out)",
+        "note": "Les exemplaires de la résidence au motel sont à récupérer avant le départ ; autres exemplaires non exclus."
+      }
+    },
+    {
+      "id": "t029",
+      "chapter": "c2",
+      "cat": "Magazine",
+      "title": "Magazine Wizard Wang (Wizard Wang)",
+      "description": "Starlet Motel : table dans la cafétéria.",
+      "deadline": "Avant Quitter le motel (Checking Out)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        3,
+        6,
+        10,
+        44
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "location",
+        "limit": "Avant Quitter le motel (Checking Out)",
+        "note": "Les exemplaires de la résidence au motel sont à récupérer avant le départ ; autres exemplaires non exclus."
+      }
+    },
+    {
+      "id": "t030",
+      "chapter": "c2",
+      "cat": "Rencontre",
+      "title": "Aider Wyman avec sa voiture",
+      "description": "Vérifier le parking du Starlet Motel pour cette rencontre secondaire.",
+      "deadline": "Pendant le séjour au motel",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        6,
+        44
+      ],
+      "spoiler": false,
+      "group": "missions",
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant Quitter le motel (Checking Out)",
+        "note": "La rencontre au parking du motel n’est disponible que pendant ce séjour."
+      }
+    },
+    {
+      "id": "t031",
+      "chapter": "c2",
+      "cat": "Objet",
+      "title": "Récupérer le collier de Lucia (si acheté)",
+      "description": "Si le collier a été acheté au chapitre 1, voir Linda à la réception et régler la somme due lors de Retard de paiement (Behind on Payments).",
+      "deadline": "Pendant Retard de paiement (Behind on Payments)",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        6,
+        44
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Pendant Retard de paiement (Behind on Payments), avant Quitter le motel (Checking Out)",
+        "note": "Récupération du collier à vérifier auprès de Linda."
+      }
+    },
+    {
+      "id": "t032",
+      "chapter": "c2",
+      "cat": "Mission secondaire",
+      "title": "Découvrir les missions de Billy",
+      "description": "Au Thrillbilly Mud Club : Thrillbillies, puis Twist Wrist, Smash, Grab après son message. La suite se poursuit au chapitre 3 ; pas de perte définitive prouvée ici.",
+      "deadline": "À partir de Pause café (Coffee Break)",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        1,
+        8,
+        12,
+        47
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "t033",
+      "chapter": "c2",
+      "cat": "Préparation",
+      "title": "Finir les activités souhaitées au Starlet Motel",
+      "description": "Après Quitter le motel (Checking Out), le motel ne sert plus de résidence. Récupérer et consulter tout ce qui t’intéresse avant le départ.",
+      "deadline": "Avant Quitter le motel (Checking Out)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        6,
+        9,
+        44
+      ],
+      "spoiler": false,
+      "risk": {
+        "kind": "location",
+        "limit": "Avant Quitter le motel (Checking Out)",
+        "note": "Le motel cesse d’être la résidence ; cela ne signifie pas que toutes les activités sont perdues."
+      }
+    },
+    {
+      "id": "t034",
+      "chapter": "c2",
+      "cat": "Argent",
+      "title": "Atteindre l’objectif de 15 000 $ pour le départ",
+      "description": "Préparer le montant requis par Prepare for Vice City pour déverrouiller Quitter le motel (Checking Out). C’est un prérequis, pas un objet manquable.",
+      "deadline": "Avant Quitter le motel (Checking Out)",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        6,
+        9
+      ],
+      "spoiler": false
+    },
+    {
+      "id": "t035",
+      "chapter": "c2",
+      "cat": "Préparation",
+      "title": "Sauvegarder avant Quitter le motel (Checking Out)",
+      "description": "Créer une sauvegarde dans un emplacement distinct.",
+      "deadline": "Avant Quitter le motel (Checking Out)",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        0,
+        6,
+        14
+      ],
+      "spoiler": false
+    },
+    {
+      "id": "t036",
+      "chapter": "c3",
+      "cat": "Mission secondaire",
+      "title": "Course contre Yago (Race Against Yago)",
+      "description": "Course optionnelle limitée dans le temps, jouable avec Jason. La réaliser dès l’apparition de son marqueur.",
+      "deadline": "Dès l’apparition du sablier · avant la fin du chap. 3",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        1,
+        8,
+        9,
+        44,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "group": "missions",
+      "risk": {
+        "kind": "missable",
+        "limit": "Dès le sablier de Course contre Yago (Race Against Yago) ; avant Le coup du cartel (The Cartel Heist) au plus tard",
+        "note": "Le délai peut expirer avant la fin du chapitre. Faire la course dès le message de Yago."
+      }
+    },
+    {
+      "id": "t037",
+      "chapter": "c3",
+      "cat": "Choix",
+      "title": "Ne pas perdre la suite de Origine douteuse (Dubious Provenance)",
+      "description": "Si tu refuses la proposition de Halifax, utiliser l’appel facultatif avant la fin du chapitre pour accéder aux épisodes 2 et 3 et à leurs récompenses.",
+      "deadline": "Avant la fin du chap. 3",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        8,
+        10,
+        44,
+        47
+      ],
+      "spoiler": false,
+      "group": "missions",
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant Le coup du cartel (The Cartel Heist)",
+        "note": "Si la statue a été conservée, rappeler Halifax avant la fin du chapitre pour conserver la suite."
+      }
+    },
+    {
+      "id": "t038",
+      "chapter": "c3",
+      "cat": "Magazine",
+      "title": "Magazine Passion B.C. (Passion B.C.)",
+      "description": "Appartement de Bayside : près de la baignoire ou du jacuzzi.",
+      "deadline": "Avant la fin du chap. 3",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        3,
+        16,
+        44,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "location",
+        "limit": "Avant Le coup du cartel (The Cartel Heist)",
+        "note": "Les exemplaires de Bayside disparaissent avec la résidence ; l’existence d’autres exemplaires n’est pas exclue."
+      }
+    },
+    {
+      "id": "t039",
+      "chapter": "c3",
+      "cat": "Magazine",
+      "title": "Deux idiots dans les buissons (Two Pricks in the Bush)",
+      "description": "Appartement de Bayside : sur la table devant la télévision.",
+      "deadline": "Avant la fin du chap. 3",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        3,
+        16,
+        44,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "group": "secrets",
+      "risk": {
+        "kind": "location",
+        "limit": "Avant Le coup du cartel (The Cartel Heist)",
+        "note": "Les exemplaires de Bayside disparaissent avec la résidence ; l’existence d’autres exemplaires n’est pas exclue."
+      }
+    },
+    {
+      "id": "t040",
+      "chapter": "c3",
+      "cat": "Arme unique",
+      "title": "Pistolet 1992 de Monty",
+      "description": "Pendant Le chaînon manquant (The Missing Link), après le premier affrontement, retourner dans la pièce des photos pour inspecter l’arme.",
+      "deadline": "Pendant Le chaînon manquant (The Missing Link)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        8,
+        10,
+        23,
+        36,
+        44,
+        45
+      ],
+      "spoiler": true,
+      "group": "weapons",
+      "risk": {
+        "kind": "missable",
+        "limit": "Pendant Le chaînon manquant (The Missing Link), avant de quitter la salle des photos",
+        "note": "Les guides situent cette variante dans la mission seulement."
+      }
+    },
+    {
+      "id": "t041",
+      "chapter": "c3",
+      "cat": "Arme / butin",
+      "title": "Ouvrir le coffre de Mot de sécurité (Safe Word)",
+      "description": "Pendant Mot de sécurité (Safe Word), guides communautaires : essayer d’ouvrir le coffre d’entraînement pour récupérer une arme Kalinga .50 et 1 500 $.",
+      "deadline": "Pendant Mot de sécurité (Safe Word)",
+      "sev": "optionnel",
+      "confidence": "incertain",
+      "sources": [
+        8,
+        23,
+        36
+      ],
+      "spoiler": true,
+      "group": "weapons",
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Pendant Mot de sécurité (Safe Word), avant de quitter le coffre",
+        "note": "La récupération du butin est rapportée mais non établie comme unique."
+      }
+    },
+    {
+      "id": "t042",
+      "chapter": "c3",
+      "cat": "Argent",
+      "title": "Récupérer le sac rouge de Mur de briques (Bricked Up)",
+      "description": "Pendant Mur de briques (Bricked Up), prendre le sac rouge dans la première pièce avant d’en sortir (récompense annoncée : 3 500 $).",
+      "deadline": "Pendant Mur de briques (Bricked Up)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        8,
+        10,
+        44
+      ],
+      "spoiler": true,
+      "risk": {
+        "kind": "missable",
+        "limit": "Pendant Mur de briques (Bricked Up), avant de quitter la première pièce",
+        "note": "Prendre le sac rouge pour conserver le bonus de mission."
+      }
+    },
+    {
+      "id": "t043",
+      "chapter": "c3",
+      "cat": "Préparation",
+      "title": "Protéger les caisses dans Propriété de l’entreprise (Company Property)",
+      "description": "Des guides indiquent que la quantité de matériel préservé influence les explosifs disponibles plus tard.",
+      "deadline": "Pendant Propriété de l’entreprise (Company Property)",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        8
+      ],
+      "spoiler": true,
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Pendant Propriété de l’entreprise (Company Property), avant la fin de la mission",
+        "note": "Impact des caisses sur le matériel ultérieur à vérifier."
+      }
+    },
+    {
+      "id": "t044",
+      "chapter": "c3",
+      "cat": "Préparation",
+      "title": "Sauvegarder avant Le coup du cartel (The Cartel Heist)",
+      "description": "Conserver une sauvegarde séparée avant le braquage concluant le chapitre.",
+      "deadline": "Avant Le coup du cartel (The Cartel Heist)",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        0,
+        8,
+        10,
+        47
+      ],
+      "spoiler": false
+    },
+    {
+      "id": "t045",
+      "chapter": "c4",
+      "cat": "Mission secondaire",
+      "title": "Mauvais conducteur ! (Bad Driver!) / Trouver Felipe (Find Felipe)",
+      "description": "Après Faire la fête (Party Hard), surveiller le contact d’Andrea et réaliser cette mission avant Jeu de pouvoir (Power Play).",
+      "deadline": "Avant Jeu de pouvoir (Power Play)",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        1,
+        8,
+        10,
+        44,
+        46
+      ],
+      "spoiler": false,
+      "group": "missions",
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant de lancer Jeu de pouvoir (Power Play)",
+        "note": "Mauvais conducteur ! (Bad Driver!) disparaît si la mission principale est lancée."
+      }
+    },
+    {
+      "id": "t046",
+      "chapter": "c4",
+      "cat": "Mission secondaire",
+      "title": "Ceci est un appel gratuit de… (This Is a Free Call From…)",
+      "description": "Mission facultative réservée à Lucia après Jeu d’enfant (Child’s Play) : répondre à la sollicitation de Shayna sans tarder.",
+      "deadline": "Après Jeu d’enfant (Child’s Play) · dès apparition",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        1,
+        8,
+        10,
+        44,
+        47
+      ],
+      "spoiler": false,
+      "group": "missions",
+      "risk": {
+        "kind": "missable",
+        "limit": "Dès le sablier de Ceci est un appel gratuit de… (This Is a Free Call From…) ; avant Coucher de soleil (Sunset) au plus tard",
+        "note": "La mission de Shayna avec Lucia peut expirer avant cette limite."
+      }
+    },
+    {
+      "id": "t047",
+      "chapter": "c4",
+      "cat": "Arme unique",
+      "title": "Récupérer le LMG-6 de Francisco",
+      "description": "Lors du dernier combat de Trafic aérien (VCIA Takedown), une variante de mitrailleuse serait récupérable au sol avant de rejoindre le véhicule.",
+      "deadline": "Pendant Trafic aérien (VCIA Takedown)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        10,
+        46,
+        47
+      ],
+      "spoiler": true,
+      "group": "weapons",
+      "risk": {
+        "kind": "missable",
+        "limit": "Pendant Trafic aérien (VCIA Takedown), avant de rejoindre le véhicule",
+        "note": "Ramasser la variante de Francisco pendant le dernier combat."
+      }
+    },
+    {
+      "id": "t048",
+      "chapter": "c4",
+      "cat": "Préparation",
+      "title": "Profiter des activités à deux personnages",
+      "description": "Certains guides signalent une indisponibilité temporaire des sorties publiques ensemble entre Prendre du muscle (Making Gainz) et Trafic aérien (VCIA Takedown).",
+      "deadline": "Avant Prendre du muscle (Making Gainz)",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        10,
+        47
+      ],
+      "spoiler": true,
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Avant Prendre du muscle (Making Gainz)",
+        "note": "Indisponibilité temporaire rapportée, pas une perte définitive."
+      }
+    },
+    {
+      "id": "t049",
+      "chapter": "c4",
+      "cat": "Argent",
+      "title": "Prévoir la somme demandée par Abe",
+      "description": "Pay Abe’s Fee requiert une somme importante (75 000 $ annoncés) pour poursuivre l’histoire. C’est un jalon, pas un élément manquable.",
+      "deadline": "Après Faire la fête (Party Hard)",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        10
+      ],
+      "spoiler": false
+    },
+    {
+      "id": "t050",
+      "chapter": "c4",
+      "cat": "Préparation",
+      "title": "Vérifier les missions à sablier avant Trafic aérien (VCIA Takedown)",
+      "description": "Terminer toutes les missions temporaires encore visibles avant de lancer le braquage.",
+      "deadline": "Avant Trafic aérien (VCIA Takedown)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        1,
+        8,
+        47
+      ],
+      "spoiler": false,
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Avant Trafic aérien (VCIA Takedown), par précaution",
+        "note": "Vérifier les sabliers individuellement : chaque mission possède sa propre limite."
+      }
+    },
+    {
+      "id": "t051",
+      "chapter": "c4",
+      "cat": "Préparation",
+      "title": "Garder une sauvegarde avant Coucher de soleil (Sunset)",
+      "description": "Une sauvegarde distincte conserve tes choix et activités antérieurs au changement de chapitre.",
+      "deadline": "Avant Coucher de soleil (Sunset) / Repartir de zéro (Starting From Zero)",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        0,
+        8
+      ],
+      "spoiler": false
+    },
+    {
+      "id": "t052",
+      "chapter": "c5",
+      "cat": "Préparation",
+      "title": "Garder une sauvegarde avant le final",
+      "description": "Créer un emplacement dédié avant Détention protectrice (Protective Custody) / Le bout de la route (The End of the Road). Cela permet de conserver le parcours antérieur.",
+      "deadline": "Avant le final",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        0,
+        8,
+        1
+      ],
+      "spoiler": false
+    },
+    {
+      "id": "t053",
+      "chapter": "c5",
+      "cat": "Choix",
+      "title": "Évaluer les choix définitifs",
+      "description": "Certaines décisions de l’histoire peuvent affecter les relations ou d’autres états du jeu. Sans relecture de mission, garder une sauvegarde pour comparer.",
+      "deadline": "Pendant les missions finales",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        9
+      ],
+      "spoiler": true,
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Avant les choix des missions finales",
+        "note": "Les conséquences varient selon le choix ; la possibilité de rejouer le final ne prouve pas que tous les choix sont réversibles."
+      }
+    },
+    {
+      "id": "t054",
+      "chapter": "c5",
+      "cat": "Après l’histoire",
+      "title": "Faire le 100 % en exploration libre",
+      "description": "Les guides indiquent que le monde reste accessible après l’histoire et que rien de nécessaire au compteur 100 % n’est définitivement perdu.",
+      "deadline": "Après le générique",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        0,
+        13
+      ],
+      "spoiler": false
+    },
+    {
+      "id": "t055",
+      "chapter": "all",
+      "cat": "Règle générale",
+      "title": "Faire les missions avec sablier dès leur apparition",
+      "description": "Les missions secondaires temporaires sont signalées par un sablier ; elles peuvent disparaître après un délai ou une avancée du scénario.",
+      "deadline": "Tout au long de la partie",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        1,
+        0
+      ],
+      "spoiler": false
+    },
+    {
+      "id": "t056",
+      "chapter": "all",
+      "cat": "Règle générale",
+      "title": "Garder des sauvegardes de chapitre indépendantes",
+      "description": "Il existe 15 emplacements manuels et 1 sauvegarde automatique ; conserver les débuts et fins de chaque chapitre est recommandé.",
+      "deadline": "Tout au long de la partie",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        0,
+        14
+      ],
+      "spoiler": false
+    },
+    {
+      "id": "t057",
+      "chapter": "all",
+      "cat": "Règle générale",
+      "title": "Ne pas viser tous les objets pour obtenir 100 %",
+      "description": "Les guides distinguent les emplacements d’objets qui ferment de l’obligation de collectionner 100 % : les exemplaires alternatives comptent.",
+      "deadline": "Tout au long de la partie",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        0,
+        13,
+        3
+      ],
+      "spoiler": false
+    },
+    {
+      "id": "t058",
+      "chapter": "all",
+      "cat": "État permanent",
+      "title": "Surveiller le profil criminel « Irrécupérable (Irredeemable) »",
+      "description": "La réputation criminelle à son degré maximal serait irréversible ; elle ne bloque pas les 100 % selon les guides.",
+      "deadline": "Tout au long de la partie",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        9,
+        44
+      ],
+      "spoiler": false,
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Avant de dépasser le profil Psycho",
+        "note": "Le profil Irrécupérable (Irredeemable) est signalé comme irréversible."
+      }
+    },
+    {
+      "id": "t059",
+      "chapter": "all",
+      "cat": "Règle générale",
+      "title": "Aucune relecture libre des missions",
+      "description": "Ne pas compter sur une fonction de rejouabilité : seules des sauvegardes antérieures permettent de revenir à une mission terminée.",
+      "deadline": "Tout au long de la partie",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        0,
+        1,
+        14
+      ],
+      "spoiler": false
+    },
+    {
+      "id": "w01",
+      "chapter": "c1",
+      "cat": "Arme unique",
+      "title": "Arme unique — Swamp Bait Akulus",
+      "description": "Cabane délabrée des marais, au sud-ouest de Hamlet (Pelican Valley).",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w02",
+      "chapter": "c1",
+      "cat": "Arme unique",
+      "title": "Arme unique — Cruel Huntsman’s SM-69",
+      "description": "Passerelle reliant les cabanes de chasse, près de Hamlet.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w03",
+      "chapter": "c1",
+      "cat": "Arme unique",
+      "title": "Arme unique — Crabshack VF5",
+      "description": "Cabane à crabes, Pelican Valley. Rétablir le courant puis suivre les indices de l’ordinateur et du coffre pour ouvrir la porte.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w04",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Hunter’s Laird 350",
+      "description": "Rencontre sur une route entre Hamlet et Grassrivers. L’emplacement précis varie selon les guides.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "incertain",
+      "sources": [
+        17,
+        32
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w05",
+      "chapter": "c1",
+      "cat": "Arme unique",
+      "title": "Arme unique — Kingfishers Laird 350",
+      "description": "Manatee Motel, au sud de Hamlet. Signalé après Gone Fishing.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w06",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Marabunta Grande Hobo",
+      "description": "Entrepôt en bordure de route au sud de Hamlet.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w07",
+      "chapter": "c1",
+      "cat": "Arme unique",
+      "title": "Arme unique — Kingfishers W-22",
+      "description": "Butin associé aux cabanes de Wetman Bay. Suivre l’opportunité de Donnie ; les guides divergent sur le nom exact du lieu.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "incertain",
+      "sources": [
+        17,
+        32
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w08",
+      "chapter": "c1",
+      "cat": "Arme unique",
+      "title": "Arme unique — Conspiracist Type 9",
+      "description": "Bunker sous une caravane à Balsero ; signalé après Building a Life.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w09",
+      "chapter": "c1",
+      "cat": "Arme unique",
+      "title": "Arme unique — Hauners H-AT",
+      "description": "Même bunker à Balsero. Le statut de variante unique reste à confirmer.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "incertain",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w10",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Black Eagle Import Kalinga",
+      "description": "Entrepôt Black Eagle, Balsero ; consulter l’ordinateur pour le coffre.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w11",
+      "chapter": "c1",
+      "cat": "Arme unique",
+      "title": "Arme unique — Assassin Nipper .38",
+      "description": "Permit Keys : épave en bois sur une île au sud-est. Accès en bateau ou jet-ski.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        17,
+        32
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w12",
+      "chapter": "c1",
+      "cat": "Arme unique",
+      "title": "Arme unique — Smuggler Gorse 425",
+      "description": "Permit Keys : bateau de contrebandiers. Accès par l’eau.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        17,
+        32
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w13",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Drug Mule KZ-59",
+      "description": "Riquezas Keys : recherche sous-marine, prévoir une plongée.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w14",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Deadringer 1922",
+      "description": "Mobile home à Moreau.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w15",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Money Bag 1922",
+      "description": "Mobile home voisin, Moreau.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w16",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Martha’s 1922",
+      "description": "Outlaw’s Cabin, Moreau.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w17",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Couch Potato Mustang .357",
+      "description": "Port Gellhorn : chercher le canapé perché dans un arbre.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w18",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Stoner K17 MCD",
+      "description": "Big Day Motel près d’Ambrosia.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w19",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Cargo H&L .38",
+      "description": "Conteneur maritime, Port Vice City.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w20",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Unpacked Comshot 12",
+      "description": "Maison côtière de Key Lento.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w21",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Turnt Nipper .38",
+      "description": "Paramoteur coincé dans un arbre à Bobcat Bight ; localisation divergente selon les guides.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "incertain",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w22",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — La Polilla Negra KZ-59",
+      "description": "Entrepôt Palmer, Bobcat Key, lié à une opération de gang.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w23",
+      "chapter": "c2",
+      "cat": "Arme unique",
+      "title": "Arme unique — Killtelligence SM-69",
+      "description": "Récompense associée à Bret Vogel et à la chasse, après Pause café (Coffee Break).",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        17,
+        18,
+        47
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w24",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Star Spangled 556",
+      "description": "Achat : Phil’s Ammu-Nation  Southside. Prix indiqué par Atlas : 3 050 $",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        32,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w25",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Honky Tonk Mustang .357",
+      "description": "Achat : Phil’s Ammu-Nation  Southside. Prix indiqué par Atlas : 3 780 $",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        32,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w26",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Vice City Heathen",
+      "description": "Achat : Prestige Firearms  Ocean Beach. Prix indiqué par Atlas : 5 150 $",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        32,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w27",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Bruiser Super400",
+      "description": "Achat : Vice City Gun & Pawn. Prix indiqué par Atlas : 5 930 $",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        32,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w28",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Darknite Drifter",
+      "description": "Achat : Gellhorn Outfitters. Prix indiqué par Atlas : 2 420 $",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        32,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w29",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Fincredible Laird 350",
+      "description": "Achat : Guns Aplenty!. Prix indiqué par Atlas : 2 000 $",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        32,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w30",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Sand Storm ES9",
+      "description": "Achat : Big Shots  Hamlet. Prix indiqué par Atlas : 1 470 $",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        32,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "w31",
+      "chapter": "explore",
+      "cat": "Arme unique",
+      "title": "Arme unique — Silver 1922",
+      "description": "Achat : Big Shots  Hamlet. Prix indiqué par Atlas : 2 210 $",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        32,
+        18
+      ],
+      "spoiler": false,
+      "group": "weapons"
+    },
+    {
+      "id": "v01",
+      "chapter": "c3",
+      "cat": "Véhicule rare",
+      "title": "Growler de Vanessa et garage gratuit (Vanessa’s Growler + garage gratuit)",
+      "description": "Dans Bayside, examiner le certificat du chien près de l’entrée et le dessin près du lit (retourner le dessin). Sur le PC : Muffins, Queen, 15. Lire le message WhatUp puis aller au garage décoré d’un nœud près d’Auntie’s Place, La Perle. Code 92665.",
+      "deadline": "Avant Le coup du cartel (The Cartel Heist) par précaution ; au plus tard avant de quitter Bayside",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        21,
+        22,
+        23,
+        44,
+        45,
+        47
+      ],
+      "spoiler": true,
+      "group": "vehicles",
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant Le coup du cartel (The Cartel Heist) (au plus tard avant Ocean Beach)",
+        "note": "Déverrouiller le PC puis le garage avant de quitter Bayside ; les guides divergent sur le dernier moment exact."
+      },
+      "location": "Appartement de Bayside / garage de Vanessa"
+    },
+    {
+      "id": "v02",
+      "chapter": "c3",
+      "cat": "Véhicule rare",
+      "title": "Vapid ’32 Hustler — Halifax",
+      "description": "Poursuivre Origine douteuse (Dubious Provenance), accepter de faire confiance à Halifax puis l’épargner pour accéder à sa récompense.",
+      "deadline": "Avant la fin du chapitre 3 pour lancer la suite",
+      "sev": "critique",
+      "confidence": "signale",
+      "sources": [
+        23,
+        12,
+        44,
+        10,
+        47
+      ],
+      "spoiler": true,
+      "group": "vehicles",
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant Le coup du cartel (The Cartel Heist) pour conserver la suite de Origine douteuse (Dubious Provenance)",
+        "note": "La récompense dépend aussi des choix de Halifax ; voir la fiche de la mission."
+      }
+    },
+    {
+      "id": "v03",
+      "chapter": "c2",
+      "cat": "Véhicule rare",
+      "title": "’64 Mamba GT — restauration",
+      "description": "Après les projets Transgressor et Riata de Wyman, scanner quatre épaves avec WAiNK : ferme au nord de la prison, garage près de Xero Gas à Ambrosia, bassin du Mud Club, pont écroulé près de Bonanza. Payer 1 500 $ à Wyman après son appel.",
+      "deadline": "Après les deux premiers projets ; pas de limite confirmée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        25
+      ],
+      "spoiler": true,
+      "group": "vehicles",
+      "steps": [
+        {
+          "id": "s01",
+          "text": "Commencer la restauration auprès de Wyman."
+        },
+        {
+          "id": "s02",
+          "text": "Retrouver les quatre épaves indiquées dans le guide."
+        },
+        {
+          "id": "s03",
+          "text": "Terminer la restauration et récupérer la Mamba GT."
+        }
+      ],
+      "guide": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mamba-gt-locations/"
+    },
+    {
+      "id": "v04",
+      "chapter": "explore",
+      "cat": "Véhicule rare",
+      "title": "1010 Cheetah",
+      "description": "Photographier les cinq fresques 1010 pour débloquer la voiture et son garage. Voir la section Secrets.",
+      "deadline": "Après les cinq fresques",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        30,
+        31,
+        24
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "v05",
+      "chapter": "explore",
+      "cat": "Véhicule rare",
+      "title": "Ahol Blista",
+      "description": "Terminer la série d’art urbain Geographies of Trash.",
+      "deadline": "Après la collection AHOL",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        19
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "v06",
+      "chapter": "explore",
+      "cat": "Véhicule rare",
+      "title": "Véhicule rare — Acid Youga",
+      "description": "Maison de fête près du circuit de Gellhorn.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        19
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "v07",
+      "chapter": "explore",
+      "cat": "Véhicule rare",
+      "title": "Véhicule rare — Allegiance Dorado",
+      "description": "Station de lavage à Ambrosia.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        19
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "v08",
+      "chapter": "explore",
+      "cat": "Véhicule rare",
+      "title": "Véhicule rare — Anarchist Dominator",
+      "description": "Parking couvert à Balsero.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        19
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "v09",
+      "chapter": "explore",
+      "cat": "Véhicule rare",
+      "title": "Véhicule rare — Big Cat Furia",
+      "description": "Résidence de luxe, Starfish Island.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        19
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "v10",
+      "chapter": "explore",
+      "cat": "Véhicule rare",
+      "title": "Véhicule rare — Black Widow Emerus",
+      "description": "Conteneur à Port Vice City.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        19
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "v11",
+      "chapter": "explore",
+      "cat": "Véhicule rare",
+      "title": "Véhicule rare — Blue Drake Penumbra",
+      "description": "Circuit d’Ambrosia.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        19
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "v12",
+      "chapter": "explore",
+      "cat": "Véhicule rare",
+      "title": "Véhicule rare — Beer Monster Marshall",
+      "description": "Thrillbilly Mud Club.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        19
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "v13",
+      "chapter": "explore",
+      "cat": "Véhicule rare",
+      "title": "Véhicule rare — Beach Candy Bobcat",
+      "description": "Parking à Bobcat Key.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        19
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "v14",
+      "chapter": "explore",
+      "cat": "Véhicule rare",
+      "title": "Véhicule rare — Bareback Cypher",
+      "description": "Garage à Crosstown.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        19
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "v15",
+      "chapter": "explore",
+      "cat": "Véhicule rare",
+      "title": "Véhicule rare — Avalanche Supervolito",
+      "description": "Toit des appartements Neo Paloma, Tequesta.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        19
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "v16",
+      "chapter": "explore",
+      "cat": "Véhicule rare",
+      "title": "Véhicule rare — Revolutionary Azure",
+      "description": "Devant une maison à Key Lento.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        19
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "v17",
+      "chapter": "explore",
+      "cat": "Véhicule rare",
+      "title": "Véhicule rare — Shining Sea Squalo",
+      "description": "Quai de Kolt & Associates, Port Gellhorn.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        19
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "v18",
+      "chapter": "c2",
+      "cat": "Véhicule rare",
+      "title": "Rebel de Bret (Bret’s Rebel)",
+      "description": "Véhicule de chasse personnalisé offert pour les services rendus à Killtelligence Provisions.",
+      "deadline": "Après les missions de Bret",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        12
+      ],
+      "spoiler": false,
+      "group": "vehicles"
+    },
+    {
+      "id": "m01",
+      "chapter": "c1",
+      "cat": "Mission cachée / annexe",
+      "title": "Kirk — Chercher le singe des marais (Search for the Skunk Ape)",
+      "description": "Lire l’affiche de Kirk au bar Skeeter’s à Hamlet ou à la banque Fleeca. Appeler le contact et le rejoindre de nuit vers Pelican River.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        26,
+        12
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m02",
+      "chapter": "c1",
+      "cat": "Mission cachée / annexe",
+      "title": "Kirk — Chercher les effigies dans les arbres (Search for Tree Effigies)",
+      "description": "Après son message, examiner trois effigies sculptées à Pelican Valley.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        26,
+        12
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m03",
+      "chapter": "c2",
+      "cat": "Mission cachée / annexe",
+      "title": "Kirk — Aider Kirk à retrouver M. Mangrove (Help Kirk Find Mr. Mangrove)",
+      "description": "Avec Lucia uniquement, de nuit, poursuivre la quête près de Cottonmouth Lake.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        26,
+        12
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m04",
+      "chapter": "c2",
+      "cat": "Mission cachée / annexe",
+      "title": "Kyle — Explorer la ferme McKittrick (Check Out McKittrick Farm)",
+      "description": "Lire le prospectus de pilote près de la réception du Starlet Motel. Rejoindre la ferme.",
+      "deadline": "Dès le chapitre 2 ; lire l’affiche avant de quitter le motel par précaution",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        29,
+        12
+      ],
+      "spoiler": false,
+      "group": "missions",
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Avant Quitter le motel (Checking Out), par précaution",
+        "note": "L’affiche du motel disparaît potentiellement ; la perte de toute la chaîne de Kyle n’est pas établie."
+      }
+    },
+    {
+      "id": "m05",
+      "chapter": "c2",
+      "cat": "Mission cachée / annexe",
+      "title": "Kyle — Récupérer les produits chimiques pour Kyle (Collect Chemicals for Kyle)",
+      "description": "Poursuivre après le premier service et attendre son message.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m06",
+      "chapter": "c2",
+      "cat": "Mission cachée / annexe",
+      "title": "Kyle — Mon pote ? (Buddy?)",
+      "description": "Attendre le message suivant de Kyle et revenir le voir.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m07",
+      "chapter": "c2",
+      "cat": "Mission cachée / annexe",
+      "title": "Alvan — Les touristes disparus de Gellhorn (Gellhorn’s Missing Tourists)",
+      "description": "Lire une affiche au Starlet Motel ou sur le mur du 247 au sud de Delights. Examiner les trois photos dans le bâtiment au nord de Moses. Chercher les indices au bassin entre la piste et Gellhorn, à la casse à l’est de Pay’n’Spray et au parc de caravanes à l’ouest de Hank’s Waffles.",
+      "deadline": "Autres affiches disponibles après le motel",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        27,
+        12
+      ],
+      "spoiler": true,
+      "group": "missions"
+    },
+    {
+      "id": "m08",
+      "chapter": "c2",
+      "cat": "Mission cachée / annexe",
+      "title": "Alvan — Personne disparue (Missing Person)",
+      "description": "Une fois les trois indices signalés, retourner dans le bâtiment de la salle des trophées.",
+      "deadline": "Après Les touristes disparus de Gellhorn (Gellhorn’s Missing Tourists)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        27,
+        28
+      ],
+      "spoiler": true,
+      "group": "missions"
+    },
+    {
+      "id": "m09",
+      "chapter": "explore",
+      "cat": "Mission cachée / annexe",
+      "title": "Dr. Merle — La dernière chasse d’eau (The Final Flush)",
+      "description": "Suite No Flushers : suivre les indices pour rencontrer Merle à Frank’s Waffles.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12,
+        51
+      ],
+      "spoiler": true,
+      "group": "missions",
+      "steps": [
+        {
+          "id": "s01",
+          "text": "Scanner une affiche NOFLUSHERS avec le téléphone."
+        },
+        {
+          "id": "s02",
+          "text": "Répondre TRUTH au SMS reçu."
+        },
+        {
+          "id": "s03",
+          "text": "Rencontrer le Dr Merle chez Frank’s Waffles."
+        },
+        {
+          "id": "s04",
+          "text": "Suivre le traceur jusqu’à la station d’épuration."
+        },
+        {
+          "id": "s05",
+          "text": "Accéder à la chambre secrète et suivre la séquence finale."
+        },
+        {
+          "id": "s06",
+          "text": "Vérifier le bonus permanent d’endurance."
+        }
+      ],
+      "location": "Toilettes publiques → Frank’s Waffles → station d’épuration",
+      "guide": "https://www.powerpyx.com/gta-6-the-final-flush-meet-at-franks-waffles-walkthrough/"
+    },
+    {
+      "id": "m10",
+      "chapter": "explore",
+      "cat": "Mission cachée / annexe",
+      "title": "Freddie — Retester les défenses de Freddie (Retest Freddie’s Defenses)",
+      "description": "Chercher la mission de Freddie et réaliser son test de défenses.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m11",
+      "chapter": "c1",
+      "cat": "Mission cachée / annexe",
+      "title": "Kenton — Explorer les sites de plongée (Search the Dive Sites)",
+      "description": "Explorer les épaves associées à Kenton et ses collections.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m12",
+      "chapter": "c1",
+      "cat": "Mission cachée / annexe",
+      "title": "Cal — Attraper un plus gros poisson (Catch a Bigger Fish)",
+      "description": "Suivre la mission de pêche de Cal.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m13",
+      "chapter": "c2",
+      "cat": "Mission cachée / annexe",
+      "title": "Moses — livraisons et cadeau",
+      "description": "Effectuer Steal Vehicles for Moses puis Collect Moses’ Gift.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m14",
+      "chapter": "c2",
+      "cat": "Mission cachée / annexe",
+      "title": "Bret — Le vétéran traqué (Veteran Hunted)",
+      "description": "Rencontrer Bret avec Jason puis compléter ses défis de chasse.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m15",
+      "chapter": "c2",
+      "cat": "Mission cachée / annexe",
+      "title": "Billy — chaîne de missions",
+      "description": "Thrillbillies, Twist Wrist Smash Grab, Mall Rats, The Impaler et Hometown Heroes. Certaines étapes s’ouvrent plus tard.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m16",
+      "chapter": "c3",
+      "cat": "Mission cachée / annexe",
+      "title": "Andy — Cellerica",
+      "description": "Avec Lucia : Climbing the Cellerichain (3 parties), Pay the Cellerica Fee, Peach!, Read the Label, Puff Puff Pass. Lié au succès Road to Rehabilitation.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m17",
+      "chapter": "c3",
+      "cat": "Mission cachée / annexe",
+      "title": "Tyrone — Labos de litière (Kitty Litter Labs)",
+      "description": "Take Out Kitty Litter puis Spin On This ; lié au succès Spin On This!",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12,
+        47
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m18",
+      "chapter": "c3",
+      "cat": "Mission cachée / annexe",
+      "title": "Papa Audacity — Le cascadeur inconnu (The Unknown Stuntman)",
+      "description": "Démarrer cette série de cascades ; attendre ensuite son message pour Épreuve sur pneus (Trial by Tire).",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12,
+        35
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m19",
+      "chapter": "c3",
+      "cat": "Mission cachée / annexe",
+      "title": "Papa Audacity — suite des cascades",
+      "description": "Épreuve sur pneus (Trial by Tire), Quit Your Job Sell Your House, AudaCity Stunts et Catching a Whale.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12,
+        35
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m20",
+      "chapter": "c3",
+      "cat": "Mission cachée / annexe",
+      "title": "Randy — Liste de souhaits (Wish List)",
+      "description": "Compléter la liste de véhicules demandés par Randy ; lié au succès Supply & Demand.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m21",
+      "chapter": "c4",
+      "cat": "Mission cachée / annexe",
+      "title": "Pilot Pete — Le dernier kilomètre (The Last Mile)",
+      "description": "Avec Jason : récupérer l’avion, livrer les colis puis compléter les livraisons vers Southpoint Airfield et Avery Allen & Co.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        12
+      ],
+      "spoiler": false,
+      "group": "missions"
+    },
+    {
+      "id": "m22",
+      "chapter": "c3",
+      "cat": "Mission cachée / annexe",
+      "title": "Yago — compléter la chaîne",
+      "description": "Après Join a Street Race et Bumper to Bumper, traiter Course contre Yago (Race Against Yago) dès le sablier puis Brother to Brother avec Jason.",
+      "deadline": "Dès le sablier ; voir aussi la fiche Course contre Yago (Race Against Yago)",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        12,
+        44,
+        10,
+        47
+      ],
+      "spoiler": false,
+      "group": "missions",
+      "risk": {
+        "kind": "missable",
+        "limit": "Dès le sablier de Course contre Yago (Race Against Yago) ; avant Le coup du cartel (The Cartel Heist) au plus tard",
+        "note": "Seule l’étape chronométrée est établie comme manquable, pas toute la chaîne."
+      }
+    },
+    {
+      "id": "s01",
+      "chapter": "c1",
+      "cat": "Secret / collection",
+      "title": "Rencontre secrète du Skunk Ape",
+      "description": "Vers Cottonmouth Lake, au sud de Hamlet, écouter les grognements. Utiliser Focus (clic des deux sticks), suivre la créature à pied et examiner l’effigie. Sauvegarder avant la rencontre.",
+      "deadline": "Répétabilité non confirmée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        26
+      ],
+      "spoiler": true,
+      "group": "secrets",
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Aucune mission limite établie",
+        "note": "La répétabilité de la rencontre n’est pas confirmée."
+      }
+    },
+    {
+      "id": "s02",
+      "chapter": "explore",
+      "cat": "Secret / collection",
+      "title": "Les cinq fresques 1010",
+      "description": "Photographier les cinq œuvres avec le téléphone ; le guide PowerPyx donne les cinq points sur la carte. Débloque un garage et la 1010 Cheetah.",
+      "deadline": "Après les cinq photographies",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        30,
+        31
+      ],
+      "spoiler": true,
+      "group": "secrets",
+      "steps": [
+        {
+          "id": "s01",
+          "text": "Repérer les cinq fresques à l’aide de la soluce."
+        },
+        {
+          "id": "s02",
+          "text": "Scanner chaque fresque."
+        },
+        {
+          "id": "s03",
+          "text": "Récupérer la Cheetah personnalisée."
+        }
+      ],
+      "guide": "https://www.powerpyx.com/gta-6-all-1010-mural-locations/"
+    },
+    {
+      "id": "s03",
+      "chapter": "explore",
+      "cat": "Secret / collection",
+      "title": "Art urbain AHOL — Geographies of Trash",
+      "description": "Rechercher les œuvres sur la carte interactive ; la série donne accès à l’Ahol Blista.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        24,
+        34
+      ],
+      "spoiler": false,
+      "group": "secrets"
+    },
+    {
+      "id": "s04",
+      "chapter": "explore",
+      "cat": "Secret / collection",
+      "title": "WAiNK : monuments et curiosités",
+      "description": "Scanner les points remarquables avec le téléphone. Consulter les catégories de la carte interactive pour les emplacements.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        33,
+        34
+      ],
+      "spoiler": false,
+      "group": "secrets"
+    },
+    {
+      "id": "s05",
+      "chapter": "explore",
+      "cat": "Secret / collection",
+      "title": "Épaves et découvertes sous-marines",
+      "description": "Explorer les sites de plongée, notamment dans les Keys, et vérifier les entrées du menu de progression.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        33,
+        34,
+        12
+      ],
+      "spoiler": false,
+      "group": "secrets"
+    },
+    {
+      "id": "s06",
+      "chapter": "explore",
+      "cat": "Secret / collection",
+      "title": "Coffres, planques et butins",
+      "description": "Utiliser la carte interactive pour les planques ; lire les indices sur place. Les codes et montants non recoupés ne sont pas repris.",
+      "deadline": "Pas de limite documentée",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        34,
+        17
+      ],
+      "spoiler": false,
+      "group": "secrets"
+    },
+    {
+      "id": "eg001",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Bigfoot / le singe des marais (Bigfoot / le Skunk Ape)",
+      "description": "Rencontre cryptide dans les marécages au sud de Gullet Marsh. Peut ouvrir sur une série d’apparitions liées à la trame de Kirk.",
+      "deadline": "Exploration libre · plutôt en zone marécageuse",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37,
+        42,
+        39
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Marais au sud de Cottonmouth Lake / Gullet Marsh"
+    },
+    {
+      "id": "eg002",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Bunker secret de Grassrivers",
+      "description": "Bunker caché dans les marais avec activation en plusieurs étapes et récompense finale rapportée par les guides communautaires.",
+      "deadline": "Exploration libre · puzzle environnemental",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37,
+        38
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Marais de Grassrivers"
+    },
+    {
+      "id": "eg003",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Caméo de Wade dans un podcast",
+      "description": "Le podcast Final Act évoque Floyd et Debra de GTA V et inclut une intervention de Wade.",
+      "deadline": "Après progression dans l’histoire",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37,
+        43
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg004",
+      "chapter": "c1",
+      "cat": "Clin d’œil",
+      "title": "Chambre d’hôtel éclairée aux bougies",
+      "description": "Lors d’une séquence d’hôtel, une porte cache une scène d’horreur muette distincte des autres chambres festives.",
+      "deadline": "Pendant Permission de sortie (Day Release) (chapitre 1)",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37,
+        47
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "risk": {
+        "kind": "missable",
+        "limit": "Pendant Permission de sortie (Day Release), avant de quitter la séquence",
+        "note": "Scène ou interaction propre à cette mission ; aucune relecture libre des missions."
+      },
+      "characters": [
+        "Lucia"
+      ]
+    },
+    {
+      "id": "eg005",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Cimetière pour animaux façon Simetierre",
+      "description": "Petit cimetière d’animaux caché dans les bois au sud de Grayson, avec une curiosité WAiNK à scanner.",
+      "deadline": "Exploration libre",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Bois au sud de Grayson"
+    },
+    {
+      "id": "eg006",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Clown tueur de l’ascenseur à ballons",
+      "description": "Scare event dans le bâtiment Haymarket à Ocean Beach, en clin d’œil à Ça.",
+      "deadline": "Exploration libre",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Haymarket, Ocean Beach"
+    },
+    {
+      "id": "eg007",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Le chien cool et l’île aux chiens (Cool Dog et l’île aux chiens)",
+      "description": "Si tu es coincé loin en mer, un chien sur jet ski peut te mener vers une île secrète peuplée de chiens.",
+      "deadline": "Exploration libre · situation en mer",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg008",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Sanctuaire commémoratif Deep Roots (Deep Roots Memorial Sanctuary)",
+      "description": "Mur commémoratif rendant hommage à des proches de développeurs Rockstar disparus pendant la production.",
+      "deadline": "Exploration libre",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Au nord de Hamlet"
+    },
+    {
+      "id": "eg009",
+      "chapter": "c1",
+      "cat": "Clin d’œil",
+      "title": "PNJ parlant du mystère du mont Chiliad",
+      "description": "Deux PNJ évoquent le célèbre mystère de GTA V au tout début de l’histoire.",
+      "deadline": "Début du chapitre 1",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Pendant la recherche de Brian au début du chapitre 1",
+        "note": "Conversation d’ambiance ponctuelle ; déclenchement et répétabilité non établis."
+      },
+      "characters": [
+        "Jason"
+      ]
+    },
+    {
+      "id": "eg010",
+      "chapter": "c1",
+      "cat": "Clin d’œil",
+      "title": "Dolores le serpent a survécu",
+      "description": "En revenant après l’incendie, tu peux retrouver Dolores vivante sous l’escalier de l’ancienne maison de Jason.",
+      "deadline": "Après les événements du chapitre 1",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg011",
+      "chapter": "c1",
+      "cat": "Clin d’œil",
+      "title": "Gary l’alligator (Gary the Gator)",
+      "description": "Alligator apprivoisé du vide-grenier de Key Lento que tu peux caresser et interpeller.",
+      "deadline": "Chapitre 1 · vide-grenier de Ms. Sharleen",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Vide-grenier de Ms. Sharleen, Key Lento",
+      "characters": [
+        "Jason"
+      ]
+    },
+    {
+      "id": "eg012",
+      "chapter": "c2",
+      "cat": "Paranormal",
+      "title": "Histoire extraterrestre cachée",
+      "description": "Suite de l’enlèvement OVNI : rêve, laboratoire secret, puzzle et bonus permanents de stats pour le personnage concerné.",
+      "deadline": "À partir du chapitre 2",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        37,
+        41,
+        38,
+        50
+      ],
+      "spoiler": true,
+      "group": "easter",
+      "steps": [
+        {
+          "id": "s01",
+          "text": "Après le chapitre 1, chercher la voiture aux feux clignotants près du Starlet Motel après 2 h, avec un personnage seul."
+        },
+        {
+          "id": "s02",
+          "text": "Suivre les indices et terminer la rencontre d’enlèvement."
+        },
+        {
+          "id": "s03",
+          "text": "Dormir avec le même personnage jusqu’au rêve."
+        },
+        {
+          "id": "s04",
+          "text": "Traverser la salle des œufs et résoudre le digicode en lisant les indices propres à la partie."
+        },
+        {
+          "id": "s05",
+          "text": "Résoudre le panneau lumineux et utiliser le lait dans la machine."
+        },
+        {
+          "id": "s06",
+          "text": "Retrouver l’installation montrée dans le rêve (guides : secteur South Point Airfield ; emplacement exact à vérifier)."
+        },
+        {
+          "id": "s07",
+          "text": "Reproduire les énigmes, libérer l’extraterrestre et terminer la rencontre."
+        },
+        {
+          "id": "s08",
+          "text": "Vérifier les améliorations permanentes du personnage."
+        }
+      ],
+      "location": "Starlet Motel, Kelly County ; installation indiquée dans le rêve",
+      "characters": [
+        "Jason",
+        "Lucia"
+      ],
+      "video": "https://www.youtube.com/watch?v=WhEFLbme1D8",
+      "guide": "https://www.videogameschronicle.com/guide/gta-6-full-alien-ufo-questline-walkthrough/"
+    },
+    {
+      "id": "eg013",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Entrepôt de robots sexuels du Decor District",
+      "description": "Atelier secret avec robots agressifs et séquence mêlant horreur et QTE.",
+      "deadline": "Exploration libre à Vice City",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg014",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Influenceuse avalée par un python",
+      "description": "Scène macabre le long de la Pelican River avec téléphone abandonné et dernier vlog.",
+      "deadline": "Exploration libre",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg015",
+      "chapter": "c1",
+      "cat": "Clin d’œil",
+      "title": "La « fille en bikini » du trailer 1",
+      "description": "Le personnage aperçu dans la bande-annonce réapparaît pendant la fête sur le yacht de Permission de sortie (Day Release).",
+      "deadline": "Pendant Permission de sortie (Day Release) (chapitre 1)",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37,
+        47
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "risk": {
+        "kind": "missable",
+        "limit": "Pendant Permission de sortie (Day Release), avant de quitter la séquence",
+        "note": "Scène ou interaction propre à cette mission ; aucune relecture libre des missions."
+      },
+      "characters": [
+        "Lucia"
+      ]
+    },
+    {
+      "id": "eg016",
+      "chapter": "explore",
+      "cat": "Mystère",
+      "title": "Boîte mystère vers une autre dimension",
+      "description": "Une mallette marquée ??? déclenche un parcours psychédélique avec bonus permanent d’endurance rapporté par des joueurs.",
+      "deadline": "Exploration libre",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37,
+        38
+      ],
+      "spoiler": true,
+      "group": "easter",
+      "steps": [
+        {
+          "id": "s01",
+          "text": "Trouver la mallette dans le conteneur maritime."
+        },
+        {
+          "id": "s02",
+          "text": "Terminer le parcours de plateformes."
+        },
+        {
+          "id": "s03",
+          "text": "Terminer la séquence de nage."
+        },
+        {
+          "id": "s04",
+          "text": "Vérifier le bonus et le motif de tatouage rapportés."
+        }
+      ],
+      "location": "Comté de Lummox"
+    },
+    {
+      "id": "eg017",
+      "chapter": "c1",
+      "cat": "Clin d’œil",
+      "title": "La fille à la sucette de GTA IV sur la caravane de Donnie (Lollipop Girl de GTA IV sur la caravane de Donnie)",
+      "description": "Peinture inspirée de Lola Del Rio, l’illustration emblématique de GTA IV.",
+      "deadline": "Chapitre 1 · chez Donnie",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg018",
+      "chapter": "c1",
+      "cat": "Clin d’œil",
+      "title": "Plaque commémorative de Fatal Incursion",
+      "description": "Petit mémorial dédié au groupe de rap metal clownesque de GTA Online, avec bougies la nuit.",
+      "deadline": "Exploration libre à Key Lento",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Pointe sud-ouest de Key Lento"
+    },
+    {
+      "id": "eg019",
+      "chapter": "c3",
+      "cat": "Référence",
+      "title": "Caméo de Little Sam",
+      "description": "Petit personnage discret lié à Boobie Time, vu comme un clin d’œil à Sam Houser.",
+      "deadline": "Chapitre 3 · mission Boobie Time",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "risk": {
+        "kind": "missable",
+        "limit": "Pendant Boobie Time, avant la fin de la mission",
+        "note": "Apparition liée à cette mission, et non une quête autonome."
+      }
+    },
+    {
+      "id": "eg020",
+      "chapter": "c2",
+      "cat": "Référence",
+      "title": "Chapeau d’Arthur Morgan",
+      "description": "Vrai chapeau achetable dans un vide-grenier de Port Gellhorn, signalé à partir du chapitre 2.",
+      "deadline": "À partir du chapitre 2",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Vide-grenier de Port Gellhorn, au sud du garage de Mose"
+    },
+    {
+      "id": "eg021",
+      "chapter": "explore",
+      "cat": "Paranormal",
+      "title": "Kraken en mer",
+      "description": "Observation rapportée d’un gigantesque kraken au large ; documentation encore fragile.",
+      "deadline": "Exploration libre en mer",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        37,
+        38
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg022",
+      "chapter": "explore",
+      "cat": "Paranormal",
+      "title": "Hôtel Marbelle hanté (Marbelle Hotel hanté)",
+      "description": "Bâtiment façon Silent Hill avec brouillard, mannequins, inscriptions et coffre à ouvrir.",
+      "deadline": "Exploration libre à Vice City",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37,
+        55
+      ],
+      "spoiler": true,
+      "group": "easter",
+      "steps": [
+        {
+          "id": "s01",
+          "text": "Entrer dans l’hôtel barricadé."
+        },
+        {
+          "id": "s02",
+          "text": "Explorer les chambres et atteindre le toit."
+        },
+        {
+          "id": "s03",
+          "text": "Relever les indices du code de coffre dans les inscriptions et les documents."
+        },
+        {
+          "id": "s04",
+          "text": "Revenir au coffre et récupérer son contenu."
+        }
+      ],
+      "location": "Sud de Crosstown, Vice City",
+      "video": "https://www.youtube.com/watch?v=jKoT95Pu2YA",
+      "guide": "https://gta6-life.com/fr/guides/marbelle-hotel-gta-6/"
+    },
+    {
+      "id": "eg023",
+      "chapter": "explore",
+      "cat": "Quête cachée",
+      "title": "Les opposants à la chasse d’eau (No Flushers / le complot du QR code des toilettes)",
+      "description": "En scannant une affiche QR dans des toilettes, tu démarres une quête conspirationniste avec bonus d’endurance permanent rapporté.",
+      "deadline": "Exploration libre · smartphone requis",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37,
+        51
+      ],
+      "spoiler": true,
+      "group": "easter",
+      "steps": [
+        {
+          "id": "s01",
+          "text": "Scanner une affiche NOFLUSHERS avec le téléphone."
+        },
+        {
+          "id": "s02",
+          "text": "Répondre TRUTH au SMS reçu."
+        },
+        {
+          "id": "s03",
+          "text": "Rencontrer le Dr Merle chez Frank’s Waffles."
+        },
+        {
+          "id": "s04",
+          "text": "Suivre le traceur jusqu’à la station d’épuration."
+        },
+        {
+          "id": "s05",
+          "text": "Accéder à la chambre secrète et suivre la séquence finale."
+        },
+        {
+          "id": "s06",
+          "text": "Vérifier le bonus permanent d’endurance."
+        }
+      ],
+      "location": "Toilettes publiques → Frank’s Waffles → station d’épuration",
+      "guide": "https://www.powerpyx.com/gta-6-the-final-flush-meet-at-franks-waffles-walkthrough/"
+    },
+    {
+      "id": "eg024",
+      "chapter": "c2",
+      "cat": "Quête cachée",
+      "title": "Portail vers Vice City 2002",
+      "description": "Énigme autour des 12 sous-stations LPL et du code LIFEISPASSINGMEBY menant au Malibu Club low-poly et à la chemise de Tommy.",
+      "deadline": "À partir du milieu de partie · de nuit",
+      "sev": "critique",
+      "confidence": "confirme",
+      "sources": [
+        37,
+        40,
+        39,
+        48,
+        49
+      ],
+      "spoiler": true,
+      "group": "easter",
+      "steps": [
+        {
+          "id": "s01",
+          "text": "Avec Jason seul, activer la tour radio Badger de Key Lento. Ne pas changer de personnage ni utiliser le voyage rapide."
+        },
+        {
+          "id": "s02",
+          "text": "Centre-ville de Vice City (L) : bouton D."
+        },
+        {
+          "id": "s03",
+          "text": "Balsero (IF) : bouton D."
+        },
+        {
+          "id": "s04",
+          "text": "Key Lento (EI) : bouton point."
+        },
+        {
+          "id": "s05",
+          "text": "Nord de Vice Beach (S) : bouton A."
+        },
+        {
+          "id": "s06",
+          "text": "Nord de Vice City (P) : levier point."
+        },
+        {
+          "id": "s07",
+          "text": "Port Gellhorn (A) : levier A."
+        },
+        {
+          "id": "s08",
+          "text": "Hamlet (SS) : bouton A."
+        },
+        {
+          "id": "s09",
+          "text": "Gloriana Key (IN) : bouton A."
+        },
+        {
+          "id": "s10",
+          "text": "Hamlet (G) : levier point."
+        },
+        {
+          "id": "s11",
+          "text": "Port Gellhorn (ME) : levier W."
+        },
+        {
+          "id": "s12",
+          "text": "Hamlet (B) : levier D."
+        },
+        {
+          "id": "s13",
+          "text": "Près de Breakwater Quarry (Y) : levier W."
+        },
+        {
+          "id": "s14",
+          "text": "Recevoir le SMS U-235 REACTOR2 19-06."
+        },
+        {
+          "id": "s15",
+          "text": "Rejoindre le réacteur 2 de Turtle Head entre 19 h et 6 h, actionner le levier et traverser le portail."
+        },
+        {
+          "id": "s16",
+          "text": "Terminer la visite du Malibu Club et récupérer les récompenses de Tommy."
+        }
+      ],
+      "location": "Key Lento → sous-stations LPL → Turtle Head",
+      "characters": [
+        "Jason"
+      ],
+      "video": "https://www.youtube.com/watch?v=C6hrkOeqNzc",
+      "guide": "https://vice-city.app/secrets/vice-city-2002-portal"
+    },
+    {
+      "id": "eg025",
+      "chapter": "explore",
+      "cat": "Paranormal",
+      "title": "Rencontre infernale avec Satan",
+      "description": "Événement nocturne à Port Gellhorn : trip en enfer, combat contre des démons et récompense fusil à pompe unique.",
+      "deadline": "Exploration libre · de nuit",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37,
+        38
+      ],
+      "spoiler": true,
+      "group": "easter",
+      "steps": [
+        {
+          "id": "s01",
+          "text": "Rencontrer les deux adolescents à Port Gellhorn de nuit."
+        },
+        {
+          "id": "s02",
+          "text": "Suivre la rencontre jusqu’au rituel."
+        },
+        {
+          "id": "s03",
+          "text": "Terminer le combat de la séquence infernale."
+        },
+        {
+          "id": "s04",
+          "text": "Récupérer la récompense près du trône."
+        }
+      ],
+      "location": "Port Gellhorn, de nuit",
+      "characters": [
+        "Jason",
+        "Lucia"
+      ]
+    },
+    {
+      "id": "eg026",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Séance photo d’un homme-poisson",
+      "description": "Rencontre absurde sur une plage isolée avec un homme en costume de sirène.",
+      "deadline": "Exploration libre",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg027",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Cachalot géant au fond de la mer",
+      "description": "Immense cachalot repéré dans les profondeurs ; pas d’emplacement écrit vraiment fixé pour le moment.",
+      "deadline": "Exploration libre sous-marine",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg028",
+      "chapter": "explore",
+      "cat": "Paranormal",
+      "title": "Événement d’horreur nocturne à Watson Bay",
+      "description": "Rencontre inquiétante relayée par une seule vidéo ; à considérer comme non confirmée.",
+      "deadline": "Exploration libre · de nuit",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg029",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Véritable œuf de Pâques sur une antenne radio",
+      "description": "Au sommet d’une haute antenne, un nid contient de vrais œufs de Pâques peints.",
+      "deadline": "Exploration libre · haute antenne",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Grande antenne radio, Vice Dale County"
+    },
+    {
+      "id": "eg030",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Tenebrae Lux, le jeu dans le jeu",
+      "description": "Jeu fictif jouable dans une planque, souvent interprété comme un clin d’œil à Clair Obscur.",
+      "deadline": "Exploration libre / planque",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg031",
+      "chapter": "c5",
+      "cat": "Référence",
+      "title": "Le tueur à gages, peut-être Niko Bellic (The Hitman, peut-être Niko Bellic)",
+      "description": "Le générique crédite Michael Hollick. Les fans pensent voir Niko, mais la référence reste non confirmée officiellement.",
+      "deadline": "Fin de partie",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        37,
+        43
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg032",
+      "chapter": "c1",
+      "cat": "Référence",
+      "title": "Affiche Rad Dads Redemption Tour",
+      "description": "Flyer humoristique visible à Key Lento, jeu de mots évident sur Red Dead Redemption.",
+      "deadline": "Chapitre 1",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg033",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Bloc Super Mario et casquettes J/L",
+      "description": "Dans la vieille papeterie, un bloc invisible libère une casquette J ou L selon le personnage utilisé.",
+      "deadline": "Exploration libre",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Ruines de la papeterie Lawton Co., Moreau"
+    },
+    {
+      "id": "eg034",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Christine, la voiture tueuse",
+      "description": "Voiture cachée rappelant le film Christine et pouvant être conduite.",
+      "deadline": "Exploration libre en North Leonard County",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Garage de North Leonard County"
+    },
+    {
+      "id": "eg035",
+      "chapter": "c1",
+      "cat": "Référence",
+      "title": "Livres Red Dead Redemption et Liberty City",
+      "description": "Plusieurs ouvrages en jeu font référence à RDR, Flaco Hernandez, Blackwater et Liberty City.",
+      "deadline": "Chapitre 1 et exploration libre",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg036",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Fabien LaRouche dans Body Copy",
+      "description": "Le prof de yoga de GTA V réapparaît par le biais d’un article dans un magazine de musculation.",
+      "deadline": "Exploration libre",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg037",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Affichette « Les représentants du gouvernement doivent payer » (Affichette « Government officials must pay »)",
+      "description": "Affiche humoristique chez Antoinette, vue comme une pique locale ; interprétation encore discutée.",
+      "deadline": "Exploration libre à Vice City",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg038",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Appartement de Dexter Morgan",
+      "description": "Quasi-réplique des Trinity Apartments de Dexter à Washington Island, avec kit de tueur et bateau à proximité.",
+      "deadline": "Exploration libre",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Trinity Apartments, Washington Island"
+    },
+    {
+      "id": "eg039",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Eclipse verte de Brian O’Conner",
+      "description": "Penumbra FF verte et plaque HAD YOU dans un garage de Vespucci Island, clin d’œil à Fast & Furious.",
+      "deadline": "Exploration libre",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Garage d’une villa, Vespucci Island"
+    },
+    {
+      "id": "eg040",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Embuscade du crabe géant",
+      "description": "Dans un centre de recherche abandonné, un énorme crabe te tombe dessus ; rappel du mème giant enemy crab.",
+      "deadline": "Exploration libre",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Centre de recherche abandonné, Gullet Marsh"
+    },
+    {
+      "id": "eg041",
+      "chapter": "c3",
+      "cat": "Référence",
+      "title": "Entrée au fusil à pompe dans un carton de roses",
+      "description": "Mise en scène rappelant Terminator 2 pendant une confrontation de l’histoire.",
+      "deadline": "Mission d’histoire correspondante",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Pendant la confrontation concernée (nom de mission non établi)",
+        "note": "La scène est liée à l’histoire ; aucune mission limite précise vérifiée."
+      }
+    },
+    {
+      "id": "eg042",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "La maison « GTA 6 » de San Andreas à Belville",
+      "description": "Maison déjà teaserisée par une image cachée dans San Andreas Definitive Edition, aujourd’hui visitable dans Leonida.",
+      "deadline": "Exploration libre",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Belville, Leonard County"
+    },
+    {
+      "id": "eg043",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "BD Rx-Men",
+      "description": "Comic book satirique jouable/consultable, parodie pharmaceutique des X-Men.",
+      "deadline": "Exploration libre",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg044",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Blague Snapmatic « avant Race and Chase 7 »",
+      "description": "Posts en jeu se moquant du mème « on a eu X avant GTA 6 ».",
+      "deadline": "Exploration libre",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg045",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Charger de Dom Toretto",
+      "description": "Muscle car cachée derrière une maison de Grayson, clin d’œil à Fast & Furious.",
+      "deadline": "Exploration libre",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Derrière une maison à Grayson"
+    },
+    {
+      "id": "eg046",
+      "chapter": "c1",
+      "cat": "Référence",
+      "title": "Plaque ASSMAN de la Phoenix",
+      "description": "La voiture The Phoenix porte une immatriculation venant tout droit de Seinfeld.",
+      "deadline": "Début du chapitre 1",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Au début du chapitre 1, lors de The Phoenix",
+        "note": "La plaque apparaît sur le véhicule de cette séquence ; disponibilité ultérieure non établie."
+      }
+    },
+    {
+      "id": "eg047",
+      "chapter": "c1",
+      "cat": "Référence",
+      "title": "Bateau de Michael De Santa",
+      "description": "Bateau amarré devant la planque de Jason avec GPS pointant vers Los Santos.",
+      "deadline": "Début de partie",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37,
+        47
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Avant Piège à touristes (Tourist Trap), par précaution",
+        "note": "Le bateau se trouve près de la résidence initiale ; perte définitive non établie."
+      },
+      "characters": [
+        "Jason"
+      ]
+    },
+    {
+      "id": "eg048",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Autocollants « 1992 Area 69 incident »",
+      "description": "Stickers rappelant le Lil’ Probe’Inn et la base Area 69 de GTA: San Andreas.",
+      "deadline": "Exploration libre",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg049",
+      "chapter": "c3",
+      "cat": "Référence",
+      "title": "Parodie de Red Hulk chez Kyle",
+      "description": "La série annexe de Kyle se termine par une transformation rappelant Red Hulk.",
+      "deadline": "Chaîne de Kyle · fin de série",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg050",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Prise d’otage façon Collateral",
+      "description": "Rencontre aléatoire avec un homme en costume sombre qui rappelle Vincent joué par Tom Cruise.",
+      "deadline": "Exploration libre à Vice City",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg051",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Salle de mise à mort façon Dexter",
+      "description": "Pièce plastifiée avec matériel de tueur rappelant très directement Dexter.",
+      "deadline": "Exploration libre à South Key Lento",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "South Key Lento"
+    },
+    {
+      "id": "eg052",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Skeeter’s, peut-être South Park",
+      "description": "Nom de bar possiblement inspiré de South Park, mais l’hommage n’est pas confirmé.",
+      "deadline": "Exploration libre au sud de Hamlet",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg053",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Tableau du masque de jade d’Undead Nightmare",
+      "description": "Toile dans un garage de Vespucci Island rappelant le masque aztèque d’Undead Nightmare.",
+      "deadline": "Exploration libre",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Garage de Vespucci Island"
+    },
+    {
+      "id": "eg054",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Flash radio sur un combat à la Jake Paul / Tyson",
+      "description": "Bulletin sportif moquant un choc des générations façon Mike Tyson vs Jake Paul ; source encore limitée.",
+      "deadline": "Écoute radio",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter"
+    },
+    {
+      "id": "eg055",
+      "chapter": "explore",
+      "cat": "Référence",
+      "title": "Mini Arthur Morgan sur un chihuahua",
+      "description": "Au minigolf western, un chien transporte une mini figurine qui ressemble à Arthur Morgan.",
+      "deadline": "Exploration libre à Waning Sands",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "location": "Frontier Adventure Golf, Waning Sands"
+    },
+    {
+      "id": "eg056",
+      "chapter": "c5",
+      "cat": "Référence",
+      "title": "Visiter le domaine Vercetti en avance",
+      "description": "Le Vercetti Estate peut être atteint avant que l’histoire ne t’y envoie, avec une réaction spécifique du jeu.",
+      "deadline": "Plutôt fin de partie / exploration anticipée",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        37
+      ],
+      "spoiler": false,
+      "group": "easter",
+      "risk": {
+        "kind": "uncertain",
+        "limit": "Avant la mission qui conduit au domaine (nom non établi)",
+        "note": "La visite anticipée est spécifique à la période avant cette mission."
+      }
+    },
+    {
+      "id": "m23",
+      "chapter": "c3",
+      "cat": "Mission cachée",
+      "title": "La clause sans pattes (No Paws Clause) — secourir le personnage sur Mirimar Drive",
+      "description": "De nuit, près de Bayside Apartments, accepter de prendre en voiture le personnage encerclé par la police. La rencontre offre une variante Furry DW-9.",
+      "deadline": "Pendant la rencontre, dès son déclenchement",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        44
+      ],
+      "spoiler": false,
+      "group": "missions",
+      "risk": {
+        "kind": "missable",
+        "limit": "Dès la rencontre La clause sans pattes (No Paws Clause), avant de repartir",
+        "note": "Si tu ignores la rencontre, la mission peut disparaître définitivement selon le guide. Aucun nom de mission principale limite établi."
+      }
+    },
+    {
+      "id": "v19",
+      "chapter": "c4",
+      "cat": "Véhicule unique",
+      "title": "Felipe — véhicule offert (Récupérer le cadeau de Felipe (Collect Felipe’s Gift))",
+      "description": "Effectuer Mauvais conducteur ! (Bad Driver!) après Faire la fête (Party Hard). Épargner Felipe pour accéder à son cadeau plutôt qu’à la récompense en argent.",
+      "deadline": "Avant Jeu de pouvoir (Power Play)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        44,
+        46
+      ],
+      "spoiler": true,
+      "group": "vehicles",
+      "risk": {
+        "kind": "missable",
+        "limit": "Avant Jeu de pouvoir (Power Play) ; choisir pendant Mauvais conducteur ! (Bad Driver!)",
+        "note": "Le véhicule dépend du choix effectué dans cette rencontre."
+      }
+    },
+    {
+      "id": "v20",
+      "chapter": "c1",
+      "cat": "Véhicules de départ",
+      "title": "Véhicules du chapitre 1 et éditions spéciales",
+      "description": "Jason perd son Ganado et ses modifications lors du changement de chapitre. Les guides mentionnent aussi la perte du Dinka Enduro, Crest Kayak et Ganado Retro Build de l’édition Ultimate.",
+      "deadline": "Avant Piège à touristes (Tourist Trap)",
+      "sev": "important",
+      "confidence": "confirme",
+      "sources": [
+        23,
+        44,
+        47
+      ],
+      "spoiler": false,
+      "group": "vehicles",
+      "risk": {
+        "kind": "location",
+        "limit": "À partir de Piège à touristes (Tourist Trap)",
+        "note": "Perte des véhicules de départ possédés lors de la transition ; la possibilité de retrouver un modèle équivalent n’est pas établie."
+      }
+    },
+    {
+      "id": "eg057",
+      "chapter": "explore",
+      "cat": "Quête cachée",
+      "title": "La chasse de Hyde Island",
+      "description": "Épreuve de survie cachée. Les guides rapportent une récompense de fin, mais les montants et conditions varient.",
+      "deadline": "Point de non-retour non documenté",
+      "sev": "important",
+      "confidence": "signale",
+      "sources": [
+        52,
+        53
+      ],
+      "spoiler": true,
+      "group": "easter",
+      "location": "Hyde Island, au large de la côte nord-est",
+      "added": "2026-11-25",
+      "steps": [
+        {
+          "id": "s01",
+          "text": "Sauvegarder avant de rejoindre l’île."
+        },
+        {
+          "id": "s02",
+          "text": "Explorer le rivage jusqu’au déclenchement de la rencontre."
+        },
+        {
+          "id": "s03",
+          "text": "Terminer l’épreuve de survie."
+        },
+        {
+          "id": "s04",
+          "text": "Vérifier et récupérer les récompenses disponibles."
+        }
+      ]
+    },
+    {
+      "id": "eg058",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "We Came Together — clin d’œil à The Last of Us",
+      "description": "Une jaquette de jeu fictif rappelle The Last of Us. Signalement communautaire.",
+      "deadline": "Point de non-retour non documenté",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        54
+      ],
+      "spoiler": true,
+      "group": "easter",
+      "location": "Magasin de jeux de Port Gellhorn",
+      "added": "2026-11-25"
+    },
+    {
+      "id": "eg059",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Laboratoire sous-marin",
+      "description": "Un laboratoire immergé est signalé près d’une bouée. L’emplacement détaillé et les conditions restent à recouper.",
+      "deadline": "Point de non-retour non documenté",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        54
+      ],
+      "spoiler": true,
+      "group": "easter",
+      "location": "Au large de Little Hardin Island",
+      "added": "2026-11-25"
+    },
+    {
+      "id": "eg060",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Les Backrooms",
+      "description": "Un passage vers un environnement étrange est signalé près du lac Tallaloko. Conditions et récompenses à confirmer.",
+      "deadline": "Point de non-retour non documenté",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        54
+      ],
+      "spoiler": true,
+      "group": "easter",
+      "location": "Secteur du lac Tallaloko",
+      "added": "2026-11-25"
+    }
+  ],
+  "sources": [
+    [
+      "PowerPyx",
+      "18 nov. 2026",
+      "Guide des succès et progression",
+      "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+    ],
+    [
+      "PowerPyx",
+      "18 nov. 2026",
+      "Missions et quêtes secondaires",
+      "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/"
+    ],
+    [
+      "PowerPyx",
+      "18 nov. 2026",
+      "Emplacements des méditations",
+      "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/"
+    ],
+    [
+      "PowerPyx",
+      "18 nov. 2026",
+      "Magazines, livres et comics",
+      "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/"
+    ],
+    [
+      "VGC · Jordan Middler",
+      "18 nov. 2026",
+      "Avertissement sur la fin du chapitre 1",
+      "https://www.videogameschronicle.com/guide/gta-6-chapter-1-warning-read-this-before-finishing-chapter-1-of-gta-6/"
+    ],
+    [
+      "GamesRadar+ · Will Sawyer",
+      "21 nov. 2026",
+      "Checklist avant Tourist Trap",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-tourist-trap/"
+    ],
+    [
+      "VICE · Brent Koepp",
+      "22 nov. 2026",
+      "Objets à récupérer au chapitre 2",
+      "https://www.vice.com/en/article/gta-6-chapter-2-length-missions-missables/"
+    ],
+    [
+      "Beebom · Sagnik Adhikary",
+      "20 nov. 2026",
+      "Éléments manquables au chapitre 1",
+      "https://beebom.com/gta-6-chapter-1-missable-items-activities/"
+    ],
+    [
+      "TotalGTA · Dinesh J",
+      "21 nov. 2026",
+      "Missions et récompenses manquables",
+      "https://totalgta.com/gta-6-missable-missions-and-limited-time-side-missions/"
+    ],
+    [
+      "The Games Wiki · communauté",
+      "20 nov. 2026",
+      "Points de non-retour par chapitre",
+      "https://thegameswiki.com/gta6/wiki/missable-content-and-points-of-no-return"
+    ],
+    [
+      "VI Field Guide",
+      "21 nov. 2026",
+      "Checklist des éléments manquables",
+      "https://vifieldguide.com/guides/missables/"
+    ],
+    [
+      "PowerPyx",
+      "18 nov. 2026",
+      "Mission Don Gone et revolver",
+      "https://www.powerpyx.com/gta-6-don-gone-head-to-donnies-trailer-walkthrough/"
+    ],
+    [
+      "PowerPyx",
+      "18 nov. 2026",
+      "Liste des Strangers & Freaks",
+      "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/"
+    ],
+    [
+      "PowerPyx",
+      "18 nov. 2026",
+      "Checklist officielle dans le jeu : 100 %",
+      "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    ],
+    [
+      "GamesRadar+",
+      "19 nov. 2026",
+      "Comment effectuer une sauvegarde",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-how-to-save/"
+    ],
+    [
+      "GamesRadar+",
+      "20 nov. 2026",
+      "Revolver unique Donnie",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-chapter-1-walkthrough/22/"
+    ],
+    [
+      "Push Square",
+      "19 nov. 2026",
+      "Objets à lire dans Bayside",
+      "https://www.pushsquare.com/guides/gta-6-magazines-books-and-comics-locations"
+    ],
+    [
+      "GTA Top · Alex Rayne",
+      "24 nov. 2026",
+      "Variantes uniques : lieux et conditions",
+      "https://gta-top.com/en/gta-6/unique-weapons"
+    ],
+    [
+      "GTABase",
+      "24 nov. 2026 (consultation)",
+      "Carte des armes uniques",
+      "https://www.gtabase.com/gta-6/map/?feature=unique-weapon"
+    ],
+    [
+      "GTABase",
+      "23 nov. 2026",
+      "Carte des véhicules emblématiques",
+      "https://www.gtabase.com/fr/gta-6/carte/?feature=standout-vehicle"
+    ],
+    [
+      "GTABase",
+      "24 nov. 2026 (consultation)",
+      "Inventaire des véhicules",
+      "https://www.gtabase.com/gta-6/vehicles/"
+    ],
+    [
+      "PC Gamer",
+      "23 nov. 2026",
+      "Ordinateur de Vanessa et garage",
+      "https://www.pcgamer.com/games/grand-theft-auto/gta-6-laptop-password-aunties-place-la-perle/"
+    ],
+    [
+      "GTA BOOM",
+      "22 nov. 2026",
+      "Garage et Growler rose",
+      "https://www.gtaboom.com/gta-6-vanessas-garage-and-pink-growler-7339"
+    ],
+    [
+      "GTA HUB",
+      "23 nov. 2026",
+      "Récompenses et objets manquables",
+      "https://gta-hub.eu/en/gta6/news/gta-6-missables-mission-only-items-weapons-cars"
+    ],
+    [
+      "Gameta",
+      "21 nov. 2026",
+      "Véhicules rares et lieux",
+      "https://gameta.gg/gta6/guides/rare-cars/"
+    ],
+    [
+      "PC Gamer · Sean Martin",
+      "22 nov. 2026",
+      "Les quatre épaves Mamba GT",
+      "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mamba-gt-locations/"
+    ],
+    [
+      "GTABase · Alessandro Dato",
+      "20 nov. 2026",
+      "Skunk Ape, rencontre et missions de Kirk",
+      "https://www.gtabase.com/gta-6/articles/gta-6-bigfoot-location-how-to-find-the-skunk-ape"
+    ],
+    [
+      "PowerPyx · Gage",
+      "23 nov. 2026",
+      "Gellhorn’s Missing Tourists",
+      "https://www.powerpyx.com/gta-6-gellhorns-missing-tourists-walkthrough/"
+    ],
+    [
+      "PowerPyx · Gage",
+      "23 nov. 2026",
+      "Missing Person",
+      "https://www.powerpyx.com/gta-6-missing-person-return-to-the-trophy-room-walkthrough/"
+    ],
+    [
+      "PowerPyx",
+      "18 nov. 2026",
+      "Déclenchement McKittrick Farm",
+      "https://www.powerpyx.com/gta-6-check-out-mckittrick-farm-walkthrough/"
+    ],
+    [
+      "PowerPyx · Gage",
+      "22 nov. 2026",
+      "Emplacements des cinq fresques 1010",
+      "https://www.powerpyx.com/gta-6-all-1010-mural-locations/"
+    ],
+    [
+      "VI Field Guide",
+      "24 nov. 2026",
+      "Garages et garage caché",
+      "https://vifieldguide.com/guides/garages/"
+    ],
+    [
+      "Atlas GTA 6",
+      "23 nov. 2026",
+      "Armes rares et divergences entre guides",
+      "https://atlasgta6.com/weapon-locations"
+    ],
+    [
+      "PowerPyx",
+      "18 nov. 2026",
+      "Base de progression et collections",
+      "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/"
+    ],
+    [
+      "GTABase",
+      "24 nov. 2026",
+      "Carte interactive en français",
+      "https://www.gtabase.com/fr/gta-6/carte/"
+    ],
+    [
+      "PowerPyx · Gage",
+      "23 nov. 2026",
+      "Trial by Tire",
+      "https://www.powerpyx.com/gta-6-trial-by-tire-meet-the-audacity-engineer-walkthrough/"
+    ],
+    [
+      "VICE",
+      "23 nov. 2026",
+      "Missions non rejouables et manquables",
+      "https://www.vice.com/en/article/gta-6-replay-missions-missables/"
+    ],
+    [
+      "ViceCityDB",
+      "24 nov. 2026",
+      "56 easter eggs et références de GTA 6",
+      "https://vicecitydb.org/fr/easter-eggs"
+    ],
+    [
+      "ViceCityDB",
+      "24 nov. 2026",
+      "Mystères et secrets de GTA 6",
+      "https://vicecitydb.org/fr/secrets"
+    ],
+    [
+      "Leonida Guide",
+      "23 nov. 2026",
+      "Inventaire des easter eggs",
+      "https://leonidaguide.gg/en/guides/easter-eggs/gta-6-easter-egg/"
+    ],
+    [
+      "Hold To Reset",
+      "23 nov. 2026",
+      "Portail secret vers Vice City 2002",
+      "https://holdtoreset.com/how-to-travel-back-to-2002-vice-city-in-gta-6/"
+    ],
+    [
+      "Jeuxvideo.com",
+      "24 nov. 2026",
+      "OVNI et aliens : la vérité est ailleurs",
+      "https://www.jeuxvideo.com/news/2116279/ovni-et-aliens-gta-6-la-verite-est-ailleurs-ou-trouver-des-extraterrestres.htm"
+    ],
+    [
+      "GamesRadar+",
+      "20 nov. 2026",
+      "Bigfoot dans GTA 6",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-bigfoot-sightings-are-already-ramping-up-as-rockstar-honors-a-22-year-old-grand-theft-auto-legend/"
+    ],
+    [
+      "GamesRadar+",
+      "20 nov. 2026",
+      "Caméo tardif et références à GTA IV",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-features-a-late-game-cameo-thats-worth-avoiding-spoilers-for-years-after-their-actor-said-they-didnt-hate-rockstar-but-didnt-love-their-pay-for-that-very-role/"
+    ],
+    [
+      "GTA6 Pocket",
+      "24 nov. 2026",
+      "Éléments manquables et limites par chapitre",
+      "https://gta6pocket.com/en/missables/"
+    ],
+    [
+      "VICE",
+      "22 nov. 2026",
+      "Chapitre 3 : objets et missions manquables",
+      "https://www.vice.com/en/article/gta-6-chapter-3-length-missions-missables/"
+    ],
+    [
+      "VICE",
+      "24 nov. 2026",
+      "Chapitre 4 : objets et missions manquables",
+      "https://www.vice.com/en/article/gta-6-chapter-4-length-missions-missables/"
+    ],
+    [
+      "GTApedia",
+      "23 nov. 2026",
+      "Correspondances français / anglais et relevés Xbox",
+      "https://gtapedia.org/guides/missions/"
+    ],
+    [
+      "GTA6 Pocket",
+      "24 nov. 2026 (consultation)",
+      "Portail 2002 : itinéraire et commandes",
+      "https://gta6pocket.com/en/vice-city-2002-portal/"
+    ],
+    [
+      "Vice City App",
+      "24 nov. 2026",
+      "Ordre des 12 sous-stations",
+      "https://vice-city.app/secrets/vice-city-2002-portal"
+    ],
+    [
+      "VGC",
+      "22 nov. 2026",
+      "Soluce de la quête extraterrestre",
+      "https://www.videogameschronicle.com/guide/gta-6-full-alien-ufo-questline-walkthrough/"
+    ],
+    [
+      "PowerPyx · Gage",
+      "22 nov. 2026",
+      "Soluce de La dernière chasse d’eau",
+      "https://www.powerpyx.com/gta-6-the-final-flush-meet-at-franks-waffles-walkthrough/"
+    ],
+    [
+      "GTA VI France",
+      "24 nov. 2026",
+      "Chasse sur Hyde Island",
+      "https://gtavifrance.com/journal/2026-11-24-hyde-island-easter-egg-gta6.html"
+    ],
+    [
+      "GTA6.house",
+      "24 nov. 2026",
+      "Hyde Island et récompense",
+      "https://gta6.house/library/locations/hyde-island"
+    ],
+    [
+      "GTAScoop",
+      "25 nov. 2026",
+      "Inventaire des secrets",
+      "https://gtascoop.com/guides/gta-6-easter-eggs-and-secrets/"
+    ],
+    [
+      "GTA6 Life",
+      "22 nov. 2026",
+      "Hôtel Marbelle et coffre",
+      "https://gta6-life.com/fr/guides/marbelle-hotel-gta-6/"
+    ]
+  ],
+  "chapters": [
+    {
+      "id": "c1",
+      "n": "01",
+      "name": "Comme au paradis (Just Like Paradise)",
+      "place": "Key Lento · Mariana County",
+      "gate": "Piège à touristes (TOURIST TRAP)",
+      "gateDesc": "À lancer seulement après ta vérification : enchaîne avec Home Sweet Home et Sortie d’hôpital (Discharge Time).",
+      "warning": "Risque élevé · maison, quêtes de Shirley et objets de mission",
+      "sources": [
+        4,
+        5,
+        1
+      ]
+    },
+    {
+      "id": "c2",
+      "n": "02",
+      "name": "Le paradis perdu (Paradise Lost)",
+      "place": "Starlet Motel · Port Gellhorn",
+      "gate": "Quitter le motel (CHECKING OUT)",
+      "gateDesc": "Le départ vers Vice City met fin à l’utilisation du Starlet Motel comme logement.",
+      "warning": "Risque modéré · cartes, magazines et motel",
+      "sources": [
+        6,
+        9,
+        1
+      ]
+    },
+    {
+      "id": "c3",
+      "n": "03",
+      "name": "Sexe et argent de la drogue (Tits, Ass, Drug Money)",
+      "place": "Bayside · Vice City",
+      "gate": "Le coup du cartel (THE CARTEL HEIST)",
+      "gateDesc": "Avant le braquage et la fin du chapitre : termine les activités temporaires et fouille l’appartement.",
+      "warning": "Risque modéré · course, magazines et récompenses de mission",
+      "sources": [
+        8,
+        10,
+        1
+      ]
+    },
+    {
+      "id": "c4",
+      "n": "04",
+      "name": "Vice City, bébé (Vice City, Baby)",
+      "place": "Vice City · opérations VCIA",
+      "gate": "Jeu de pouvoir (POWER PLAY) / Trafic aérien (VCIA TAKEDOWN)",
+      "gateDesc": "Deux missions annexes expirent à des moments différents ; vérifie-les avant chaque avancée majeure.",
+      "warning": "Risque modéré · quêtes chronométrées et objet de braquage",
+      "sources": [
+        8,
+        10,
+        1
+      ]
+    },
+    {
+      "id": "c5",
+      "n": "05",
+      "name": "Dernier chapitre",
+      "place": "Final de l’histoire",
+      "gate": "Détention protectrice (PROTECTIVE CUSTODY) / Le bout de la route (THE END OF THE ROAD)",
+      "gateDesc": "Conserve une sauvegarde indépendante avant le dénouement.",
+      "warning": "Précaution · pas de contenu obligatoire identifié comme manquable",
+      "sources": [
+        0,
+        8,
+        9
+      ]
+    }
+  ],
+  "views": {
+    "weapons": [
+      "ARMURERIE",
+      "Armes rares et uniques",
+      "Variantes de mission, achats exclusifs, récompenses et trouvailles à ne pas manquer.",
+      "Carte des armes",
+      18
+    ],
+    "vehicles": [
+      "GARAGE",
+      "Véhicules rares",
+      "Voitures, motos et véhicules emblématiques. Pense à les stocker dès que possible si tu veux les conserver.",
+      "Carte des véhicules",
+      19
+    ],
+    "missions": [
+      "QUÊTES",
+      "Missions cachées et annexes",
+      "Contacts, affiches à lire, chaînes secondaires et déclencheurs peu visibles.",
+      "Guide des missions",
+      12
+    ],
+    "secrets": [
+      "DOSSIERS",
+      "Secrets, collections et récompenses",
+      "Collections, quêtes spéciales, récompenses uniques et découvertes liées à l’exploration.",
+      "Carte de Leonida",
+      34
+    ],
+    "easter": [
+      "VICE FILES",
+      "Clins d’œil, mystères et références",
+      "Inventaire élargi des easter eggs communautaires : paranormal, nostalgie, hommages pop culture et quêtes cachées.",
+      "Base Easter eggs",
+      37
+    ],
+    "explore": [
+      "EXPLORATION LIBRE",
+      "À découvrir en exploration",
+      "Fiches sans point de non-retour strict confirmé, utiles pour fouiller la carte sans pression.",
+      "Carte de Leonida",
+      34
+    ],
+    "everything": [
+      "TOUT LE GUIDE",
+      "Toutes les fiches",
+      "Recherche globale dans l’ensemble du guide, y compris le nouvel inventaire d’easter eggs.",
+      "Carte de Leonida",
+      34
+    ],
+    "missables": [
+      "POINTS DE NON-RETOUR",
+      "Éléments manquables",
+      "Missions, objets et scènes avec une fenêtre de disponibilité limitée. Les risques non vérifiés et les emplacements qui ferment sont distingués.",
+      "Guide des éléments manquables",
+      44
+    ],
+    "favorites": [
+      "MA LISTE",
+      "Favoris",
+      "Les fiches mises de côté dans cette partie.",
+      "Carte de Leonida",
+      34
+    ],
+    "current": [
+      "MA PARTIE",
+      "À surveiller maintenant",
+      "Alertes et contenus à surveiller selon ton chapitre déclaré.",
+      "Carte de Leonida",
+      34
+    ],
+    "new": [
+      "NOUVEAUTÉS",
+      "Nouvelles fiches",
+      "Fiches ajoutées depuis la dernière version.",
+      "Carte de Leonida",
+      34
+    ]
+  }
+}
