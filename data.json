@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.25.1",
+  "version": "2026.11.25.3",
   "items": [
     {
       "id": "t001",
@@ -78,7 +78,8 @@
       "location": "Cuisine puis balcon de la maison de Jason",
       "characters": [
         "Jason"
-      ]
+      ],
+      "region": "Autres lieux"
     },
     {
       "id": "t004",
@@ -103,7 +104,8 @@
         "limit": "Pendant ByeBye Don (Don Gone), avant de détruire la voiture",
         "note": "La variante unique ne peut plus être prise dans le coffre après sa destruction."
       },
-      "location": "Voiture de Donnie, pendant ByeBye Don"
+      "location": "Voiture de Donnie, pendant ByeBye Don",
+      "region": "Autres lieux"
     },
     {
       "id": "t005",
@@ -1781,7 +1783,10 @@
         "limit": "Avant Le coup du cartel (The Cartel Heist) (au plus tard avant Ocean Beach)",
         "note": "Déverrouiller le PC puis le garage avant de quitter Bayside ; les guides divergent sur le dernier moment exact."
       },
-      "location": "Appartement de Bayside / garage de Vanessa"
+      "location": "Appartement de Bayside / garage de Vanessa",
+      "conditions": "Avant Le coup du cartel ; consulter l’ordinateur",
+      "reward": "Growler rose et garage",
+      "region": "Autres lieux"
     },
     {
       "id": "v02",
@@ -2251,7 +2256,8 @@
         }
       ],
       "location": "Toilettes publiques → Frank’s Waffles → station d’épuration",
-      "guide": "https://www.powerpyx.com/gta-6-the-final-flush-meet-at-franks-waffles-walkthrough/"
+      "guide": "https://www.powerpyx.com/gta-6-the-final-flush-meet-at-franks-waffles-walkthrough/",
+      "region": "Autres lieux"
     },
     {
       "id": "m10",
@@ -2587,11 +2593,19 @@
       "sources": [
         37,
         42,
-        39
+        39,
+        56
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Marais au sud de Cottonmouth Lake / Gullet Marsh"
+      "location": "Marais au sud de Cottonmouth Lake / Gullet Marsh",
+      "mapLinks": [
+        {
+          "label": "Rencontre au sud de Hamlet",
+          "url": "https://gta6gps.com/?p=pin-915700"
+        }
+      ],
+      "region": "Autres lieux"
     },
     {
       "id": "eg002",
@@ -2608,7 +2622,8 @@
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Marais de Grassrivers"
+      "location": "Marais de Grassrivers",
+      "region": "Grassrivers"
     },
     {
       "id": "eg003",
@@ -2664,7 +2679,8 @@
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Bois au sud de Grayson"
+      "location": "Bois au sud de Grayson",
+      "region": "Grayson"
     },
     {
       "id": "eg006",
@@ -2680,7 +2696,8 @@
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Haymarket, Ocean Beach"
+      "location": "Haymarket, Ocean Beach",
+      "region": "Ocean Beach"
     },
     {
       "id": "eg007",
@@ -2711,7 +2728,8 @@
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Au nord de Hamlet"
+      "location": "Au nord de Hamlet",
+      "region": "Hamlet"
     },
     {
       "id": "eg009",
@@ -2768,7 +2786,8 @@
       "location": "Vide-grenier de Ms. Sharleen, Key Lento",
       "characters": [
         "Jason"
-      ]
+      ],
+      "region": "Key Lento"
     },
     {
       "id": "eg012",
@@ -2783,7 +2802,9 @@
         37,
         41,
         38,
-        50
+        50,
+        56,
+        72
       ],
       "spoiler": true,
       "group": "easter",
@@ -2826,8 +2847,23 @@
         "Jason",
         "Lucia"
       ],
-      "video": "https://www.youtube.com/watch?v=WhEFLbme1D8",
-      "guide": "https://www.videogameschronicle.com/guide/gta-6-full-alien-ufo-questline-walkthrough/"
+      "video": "https://www.youtube.com/watch?v=5OgDGkUdeDw",
+      "guide": "https://www.videogameschronicle.com/guide/gta-6-full-alien-ufo-questline-walkthrough/",
+      "mapLinks": [
+        {
+          "label": "Déclenchement de la rencontre OVNI",
+          "url": "https://gta6gps.com/?p=pin-917832"
+        },
+        {
+          "label": "Installation souterraine",
+          "url": "https://gta6gps.com/?p=pin-917793"
+        }
+      ],
+      "conditions": "Chapitre 2 selon le guide ; après 2 h ; personnage enlevé pour la suite",
+      "reward": "Bonus permanents de santé, endurance et concentration pour le personnage concerné",
+      "region": "Kelly County",
+      "thumbnail": "https://i.ytimg.com/vi/5OgDGkUdeDw/hqdefault.jpg",
+      "visualGuide": "https://vicecitydb.org/easter-eggs/alien-rescue-dream-quest"
     },
     {
       "id": "eg013",
@@ -2916,7 +2952,8 @@
           "text": "Vérifier le bonus et le motif de tatouage rapportés."
         }
       ],
-      "location": "Comté de Lummox"
+      "location": "Comté de Lummox",
+      "region": "Autres lieux"
     },
     {
       "id": "eg017",
@@ -2947,7 +2984,8 @@
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Pointe sud-ouest de Key Lento"
+      "location": "Pointe sud-ouest de Key Lento",
+      "region": "Key Lento"
     },
     {
       "id": "eg019",
@@ -2979,11 +3017,21 @@
       "sev": "important",
       "confidence": "confirme",
       "sources": [
-        37
+        37,
+        56
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Vide-grenier de Port Gellhorn, au sud du garage de Mose"
+      "location": "Vide-grenier de Port Gellhorn, au sud du garage de Mose",
+      "mapLinks": [
+        {
+          "label": "Vide-grenier de Port Gellhorn",
+          "url": "https://gta6gps.com/?p=pin-917883"
+        }
+      ],
+      "conditions": "À partir du chapitre 2 selon les joueurs",
+      "reward": "Chapeau de cowboy (35 $)",
+      "region": "Port Gellhorn"
     },
     {
       "id": "eg021",
@@ -3012,7 +3060,9 @@
       "confidence": "confirme",
       "sources": [
         37,
-        55
+        55,
+        56,
+        69
       ],
       "spoiler": true,
       "group": "easter",
@@ -3034,9 +3084,20 @@
           "text": "Revenir au coffre et récupérer son contenu."
         }
       ],
-      "location": "Sud de Crosstown, Vice City",
-      "video": "https://www.youtube.com/watch?v=jKoT95Pu2YA",
-      "guide": "https://gta6-life.com/fr/guides/marbelle-hotel-gta-6/"
+      "location": "NW 8th St, sud de Crosstown, près du Nine1Nine",
+      "video": "https://www.youtube.com/watch?v=_EnkF4qSd_w",
+      "guide": "https://gta6-life.com/fr/guides/marbelle-hotel-gta-6/",
+      "mapLinks": [
+        {
+          "label": "Hôtel Marbelle",
+          "url": "https://gta6gps.com/?p=pin-918362"
+        }
+      ],
+      "conditions": "De nuit selon les guides",
+      "reward": "Montre de luxe",
+      "region": "Vice City",
+      "visualGuide": "https://vicecitydb.org/easter-eggs/marbelle-hotel-silent-hill",
+      "thumbnail": "https://i.ytimg.com/vi/_EnkF4qSd_w/hqdefault.jpg"
     },
     {
       "id": "eg023",
@@ -3080,7 +3141,10 @@
         }
       ],
       "location": "Toilettes publiques → Frank’s Waffles → station d’épuration",
-      "guide": "https://www.powerpyx.com/gta-6-the-final-flush-meet-at-franks-waffles-walkthrough/"
+      "guide": "https://www.powerpyx.com/gta-6-the-final-flush-meet-at-franks-waffles-walkthrough/",
+      "conditions": "Scanner l’affiche QR",
+      "reward": "Bonus d’endurance rapporté",
+      "region": "Autres lieux"
     },
     {
       "id": "eg024",
@@ -3096,7 +3160,9 @@
         40,
         39,
         48,
-        49
+        49,
+        56,
+        71
       ],
       "spoiler": true,
       "group": "easter",
@@ -3170,8 +3236,23 @@
       "characters": [
         "Jason"
       ],
-      "video": "https://www.youtube.com/watch?v=C6hrkOeqNzc",
-      "guide": "https://vice-city.app/secrets/vice-city-2002-portal"
+      "video": "https://www.youtube.com/watch?v=gNMTCbS8Ytg",
+      "guide": "https://vice-city.app/secrets/vice-city-2002-portal",
+      "mapLinks": [
+        {
+          "label": "Tour Badger, Key Lento",
+          "url": "https://gta6gps.com/?p=pin-918615"
+        },
+        {
+          "label": "Réacteur 2, Turtle Head",
+          "url": "https://gta6gps.com/?p=pin-918611"
+        }
+      ],
+      "conditions": "Jason seul ; réacteur accessible de 19 h à 6 h",
+      "reward": "Chemise hawaïenne de Tommy Vercetti et moto classique",
+      "region": "Key Lento",
+      "visualGuide": "https://vicecitydb.org/easter-eggs/vice-city-portal-tommy-vercetti-shirt",
+      "thumbnail": "https://i.ytimg.com/vi/gNMTCbS8Ytg/hqdefault.jpg"
     },
     {
       "id": "eg025",
@@ -3210,7 +3291,10 @@
       "characters": [
         "Jason",
         "Lucia"
-      ]
+      ],
+      "conditions": "Rencontre nocturne",
+      "reward": "Hellspawn Comshot 12",
+      "region": "Port Gellhorn"
     },
     {
       "id": "eg026",
@@ -3271,7 +3355,8 @@
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Grande antenne radio, Vice Dale County"
+      "location": "Grande antenne radio, Vice Dale County",
+      "region": "Autres lieux"
     },
     {
       "id": "eg030",
@@ -3329,11 +3414,19 @@
       "sev": "important",
       "confidence": "confirme",
       "sources": [
-        37
+        37,
+        56
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Ruines de la papeterie Lawton Co., Moreau"
+      "location": "Ruines de la papeterie Lawton Co., Moreau",
+      "mapLinks": [
+        {
+          "label": "Bloc caché de la papeterie",
+          "url": "https://gta6gps.com/?p=pin-918160"
+        }
+      ],
+      "region": "Autres lieux"
     },
     {
       "id": "eg034",
@@ -3349,7 +3442,8 @@
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Garage de North Leonard County"
+      "location": "Garage de North Leonard County",
+      "region": "Leonard County"
     },
     {
       "id": "eg035",
@@ -3410,7 +3504,8 @@
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Trinity Apartments, Washington Island"
+      "location": "Trinity Apartments, Washington Island",
+      "region": "Autres lieux"
     },
     {
       "id": "eg039",
@@ -3422,11 +3517,18 @@
       "sev": "important",
       "confidence": "confirme",
       "sources": [
-        37
+        37,
+        70
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Garage d’une villa, Vespucci Island"
+      "location": "Vespucci Island (Rialto Islands), garage d’une villa moderne",
+      "conditions": "Explorer le garage de la villa",
+      "reward": "Penumbra FF verte",
+      "region": "Vespucci Island",
+      "visualGuide": "https://vicecitydb.org/easter-eggs/fast-furious-eclipse-vespucci-garage",
+      "video": "https://www.youtube.com/watch?v=g6pNfpij-JE",
+      "thumbnail": "https://i.ytimg.com/vi/g6pNfpij-JE/hqdefault.jpg"
     },
     {
       "id": "eg040",
@@ -3442,7 +3544,8 @@
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Centre de recherche abandonné, Gullet Marsh"
+      "location": "Centre de recherche abandonné, Gullet Marsh",
+      "region": "Autres lieux"
     },
     {
       "id": "eg041",
@@ -3474,11 +3577,19 @@
       "sev": "important",
       "confidence": "confirme",
       "sources": [
-        37
+        37,
+        56
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Belville, Leonard County"
+      "location": "Belville, Leonard County",
+      "mapLinks": [
+        {
+          "label": "Maison de Belville",
+          "url": "https://gta6gps.com/?p=pin-918057"
+        }
+      ],
+      "region": "Leonard County"
     },
     {
       "id": "eg043",
@@ -3524,7 +3635,10 @@
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Derrière une maison à Grayson"
+      "location": "Derrière une maison à Grayson",
+      "conditions": "Explorer derrière la maison",
+      "reward": "Muscle car inspirée de la Charger",
+      "region": "Grayson"
     },
     {
       "id": "eg046",
@@ -3557,7 +3671,8 @@
       "confidence": "confirme",
       "sources": [
         37,
-        47
+        47,
+        56
       ],
       "spoiler": false,
       "group": "easter",
@@ -3568,7 +3683,15 @@
       },
       "characters": [
         "Jason"
-      ]
+      ],
+      "mapLinks": [
+        {
+          "label": "Bateau près de la maison de Jason",
+          "url": "https://gta6gps.com/?p=pin-917890"
+        }
+      ],
+      "location": "Key Lento, devant la maison de Jason",
+      "region": "Key Lento"
     },
     {
       "id": "eg048",
@@ -3629,7 +3752,8 @@
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "South Key Lento"
+      "location": "South Key Lento",
+      "region": "Key Lento"
     },
     {
       "id": "eg052",
@@ -3660,7 +3784,8 @@
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Garage de Vespucci Island"
+      "location": "Garage de Vespucci Island",
+      "region": "Vespucci Island"
     },
     {
       "id": "eg054",
@@ -3691,7 +3816,8 @@
       ],
       "spoiler": false,
       "group": "easter",
-      "location": "Frontier Adventure Golf, Waning Sands"
+      "location": "Frontier Adventure Golf, Waning Sands",
+      "region": "Autres lieux"
     },
     {
       "id": "eg056",
@@ -3810,7 +3936,8 @@
           "id": "s04",
           "text": "Vérifier et récupérer les récompenses disponibles."
         }
-      ]
+      ],
+      "region": "Autres lieux"
     },
     {
       "id": "eg058",
@@ -3827,7 +3954,8 @@
       "spoiler": true,
       "group": "easter",
       "location": "Magasin de jeux de Port Gellhorn",
-      "added": "2026-11-25"
+      "added": "2026-11-25",
+      "region": "Port Gellhorn"
     },
     {
       "id": "eg059",
@@ -3844,7 +3972,8 @@
       "spoiler": true,
       "group": "easter",
       "location": "Au large de Little Hardin Island",
-      "added": "2026-11-25"
+      "added": "2026-11-25",
+      "region": "Autres lieux"
     },
     {
       "id": "eg060",
@@ -3861,7 +3990,4965 @@
       "spoiler": true,
       "group": "easter",
       "location": "Secteur du lac Tallaloko",
-      "added": "2026-11-25"
+      "added": "2026-11-25",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "pc001",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Histoire et tâches",
+      "title": "Terminer l’histoire",
+      "description": "Objectif : 1. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 1,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc002",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Histoire et tâches",
+      "title": "Tâches facultatives",
+      "description": "Objectif : 100. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 100,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc003",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Histoire et tâches",
+      "title": "Opérations de gangs",
+      "description": "Objectif : 39. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 39,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc004",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Histoire et tâches",
+      "title": "Braquages de banques terminés",
+      "description": "Objectif : 22. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 22,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc005",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Histoire et tâches",
+      "title": "Organismes de prêts braqués",
+      "description": "Objectif : 7. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 7,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc006",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Histoire et tâches",
+      "title": "Vols à la casse terminés",
+      "description": "Objectif : 34. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 34,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc007",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Histoire et tâches",
+      "title": "Braquages à main armée terminés",
+      "description": "Objectif : 50. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 50,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc008",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Histoire et tâches",
+      "title": "Drogues revendues ($)",
+      "description": "Objectif : 100 000. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 100000,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc009",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Histoire et tâches",
+      "title": "Bijoux revendus ($)",
+      "description": "Objectif : 100 000. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 100000,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc010",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Histoire et tâches",
+      "title": "Billets marqués blanchis ($)",
+      "description": "Objectif : 250 000. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 250000,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc011",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Histoire et tâches",
+      "title": "Chambres fortes dévalisées",
+      "description": "Objectif : 8. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 8,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc012",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Histoire et tâches",
+      "title": "Véhicules revendus ($)",
+      "description": "Objectif : 200 000. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 200000,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc013",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Séries de trésors de Kenton",
+      "description": "Objectif : 5. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 5,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc014",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Séries de cartes",
+      "description": "Objectif : 15. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 15,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc015",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Lieux scannés avec WAiNK",
+      "description": "Objectif : 100. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 100,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc016",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Découvertes sous-marines",
+      "description": "Objectif : 33. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 33,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc017",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Magazines, livres et BD",
+      "description": "Objectif : 30. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 30,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc018",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Lieux de méditation",
+      "description": "Objectif : 15. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 15,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc019",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Flamants roses de cocaïne détruits",
+      "description": "Objectif : 100. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 100,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc020",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Playlists uniques",
+      "description": "Objectif : 2. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 2,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc021",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Styles découverts",
+      "description": "Objectif : 70. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 70,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc022",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Courses différentes gagnées",
+      "description": "Objectif : 30. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 30,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc023",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Or aux défis de course",
+      "description": "Objectif : 10. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 10,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc024",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Or aux stands de tir",
+      "description": "Objectif : 42. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 42,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc025",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Jeux vidéo essayés",
+      "description": "Objectif : 4. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 4,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc026",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Adversaires de billard battus",
+      "description": "Objectif : 5. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 5,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc027",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Lieux de minigolf visités",
+      "description": "Objectif : 2. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 2,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc028",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Paniers de basket",
+      "description": "Objectif : 90. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 90,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc029",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Contre-la-montre en drone",
+      "description": "Objectif : 42. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 42,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc030",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Cascades",
+      "description": "Objectif : 300. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 300,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc031",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Défis terminés",
+      "description": "Objectif : 70. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 70,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc032",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Exploration et activités",
+      "title": "Jeux de cibles de Bret",
+      "description": "Objectif : 15. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 15,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc033",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Découverte",
+      "title": "Modèles de base de véhicules scannés",
+      "description": "Objectif : 200. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 200,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc034",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Découverte",
+      "title": "Armes standard découvertes",
+      "description": "Objectif : 50. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 50,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "pc035",
+      "group": "completion",
+      "chapter": "explore",
+      "cat": "Découverte",
+      "title": "Animaux étudiés",
+      "description": "Objectif : 100. Reporter le compteur du jeu.",
+      "deadline": "Objectif de complétion, pas une limite de mission",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "target": 100,
+      "guide": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    },
+    {
+      "id": "ax001",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "C’est le prix de Vice City !",
+      "description": "Obtenir les 54 autres succès",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax002",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Une longue route",
+      "description": "Atteindre 100 %",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax003",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Casse-cou jusqu’au bout",
+      "description": "250 cascades",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax004",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Le Flingueur",
+      "description": "Or à tous les stands de tir",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax005",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Inconnus et détraqués",
+      "description": "8 chaînes de missions d’inconnus",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax006",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Cartes sur table",
+      "description": "3 séries de cartes",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax007",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Coup de WAiNKeur",
+      "description": "100 scans de lieux",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax008",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Plafond de retrait",
+      "description": "5 chambres fortes et fuite",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax009",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Touche-à-tout",
+      "description": "Essayer chaque activité",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax010",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Top Fun",
+      "description": "Gagner un défi de drone dans chaque lieu",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax011",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "L’argent, pas la reconnaissance",
+      "description": "20 courses distinctes remportées",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax012",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Joli coup de canne",
+      "description": "Gagner un défi de pêche contre Cal",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax013",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "As du manche",
+      "description": "Finir une partie d’arcade",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax014",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Faut rester positifs",
+      "description": "Tous les lieux de méditation",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax015",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Une dernière chose",
+      "description": "50 défis",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax016",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Des étoiles plein les yeux",
+      "description": "Échapper à 4 étoiles avec le partenaire",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax017",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Shopping thérapeutique",
+      "description": "3 commerces braqués consécutivement en duo sans perdre la recherche",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax018",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Ça roule",
+      "description": "100 véhicules découverts",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax019",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Pro de la gâchette",
+      "description": "5 ennemis pendant une concentration",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax020",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Vol furtif",
+      "description": "Bijouterie dévalisée sans détection",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax021",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Coup classique de l’attaque éclair",
+      "description": "Fourgon blindé dévalisé puis fuite",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax022",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "L’État du Bonheur",
+      "description": "Explorer tout Leonida",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax023",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Lutte contre les nuisibles",
+      "description": "Une opération de chaque gang",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax024",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Pas de petit profit",
+      "description": "250 000 $ de billets marqués blanchis",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax025",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Faites-vous plaisir",
+      "description": "100 000 $ dépensés en magasin",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax026",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "Petits boxes",
+      "description": "Acheter tous les garages",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax027",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès Xbox",
+      "title": "De service",
+      "description": "10 véhicules via Scooter Bros",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "secretTitle": false
+    },
+    {
+      "id": "ax028",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Faut que tu saches quand descendre",
+      "description": "Fin de l’histoire",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax029",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Un goût de paradis",
+      "description": "Partie de pêche",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax030",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Paradis perdu",
+      "description": "Fin du chapitre 1",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax031",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "N*****s, cul et argent sale",
+      "description": "Fin du chapitre 2",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax032",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Vice City, baby !",
+      "description": "Fin du chapitre 3",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax033",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Le top du top, Ma",
+      "description": "Fin du chapitre 4",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax034",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Tu me fais confiance ?",
+      "description": "Course matinale",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax035",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Faire sauter la banque",
+      "description": "Le coup du cartel",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax036",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "La vie de famille",
+      "description": "Jeu d’enfant",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax037",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "La chute de DWNPLY",
+      "description": "Têtes d’affiche",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax038",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Détournement",
+      "description": "Trafic aérien",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax039",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Tempête de neige",
+      "description": "Opération Savage Glory",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax040",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "La route vers le rétablissement",
+      "description": "Dernière mission d’Andy",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax041",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "C’était pas un accident de bateau",
+      "description": "Dernière mission de Kenton",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax042",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Cavalier seul",
+      "description": "Dernière mission de Billy",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax043",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "L’offre et la demande",
+      "description": "Dernière mission de Randy",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax044",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Spin On This !",
+      "description": "Dernière mission de Tyrone",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax045",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Go élan",
+      "description": "Animal unique de Bret",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax046",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Arrête-moi si tu peux",
+      "description": "Décollage non prévu à l’aéroport",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax047",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Arrête ton char",
+      "description": "Indice du rhinocéros ; méthode à vérifier",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax048",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Au début…",
+      "description": "Cocktail avec vue sur Ocean Beach",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax049",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Capital mal acquis",
+      "description": "Sortie du showroom au volant d’un véhicule",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax050",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "On va au bowling",
+      "description": "Événement au bowling Kolt & Associates",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax051",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Record personnel",
+      "description": "Indice du partenariat ; méthode à vérifier",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax052",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Les actes sont plus forts",
+      "description": "Choix effectués ; méthode à vérifier",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax053",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Pas de bol, j’imagine",
+      "description": "Indice de la seconde tentative ; méthode à vérifier",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax054",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "La vérité est ailleurs",
+      "description": "Rencontre OVNI",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "ax055",
+      "group": "achievements",
+      "chapter": "explore",
+      "cat": "Succès caché",
+      "title": "Décatombe",
+      "description": "Renverser des personnages en roulant",
+      "deadline": "Suivi manuel Xbox",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        58
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "secretTitle": true
+    },
+    {
+      "id": "uw001",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Installation BURG 1",
+      "description": "Découverte sous-marine 1 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw002",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Galleon naufragé",
+      "description": "Découverte sous-marine 2 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw003",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Jet privé immergé",
+      "description": "Découverte sous-marine 3 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw004",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Ferme de corail",
+      "description": "Découverte sous-marine 4 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw005",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Nuestra Señora de la Ética Laxa",
+      "description": "Découverte sous-marine 5 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw006",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Nuestra Señora de la Noche",
+      "description": "Découverte sous-marine 6 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw007",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Bateau de pêche coulé",
+      "description": "Découverte sous-marine 7 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw008",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Nuestra Señora Lujuriosa",
+      "description": "Découverte sous-marine 8 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw009",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Urca de Cinco Torres",
+      "description": "Découverte sous-marine 9 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw010",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Sous-marin naufragé",
+      "description": "Découverte sous-marine 10 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw011",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Urca de Santa Sierra",
+      "description": "Découverte sous-marine 11 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw012",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Installation BURG 5",
+      "description": "Découverte sous-marine 12 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw013",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Avion de ligne immergé",
+      "description": "Découverte sous-marine 13 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw014",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Ancienne épave",
+      "description": "Découverte sous-marine 14 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw015",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Bateau de pêche immergé",
+      "description": "Découverte sous-marine 15 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw016",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Épave de cargo",
+      "description": "Découverte sous-marine 16 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw017",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Hélicoptère immergé",
+      "description": "Découverte sous-marine 17 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw018",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Voilier naufragé",
+      "description": "Découverte sous-marine 18 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw019",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Yacht coulé",
+      "description": "Découverte sous-marine 19 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw020",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Épave de bateau à voile",
+      "description": "Découverte sous-marine 20 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw021",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Avion de chasse immergé",
+      "description": "Découverte sous-marine 21 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw022",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Nuestra Señora del Ocio",
+      "description": "Découverte sous-marine 22 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw023",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Hôtel sous-marin",
+      "description": "Découverte sous-marine 23 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw024",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Récifs de tramways",
+      "description": "Découverte sous-marine 24 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw025",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Installation BURG 4",
+      "description": "Découverte sous-marine 25 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw026",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Carcasse de Leonida Bay",
+      "description": "Découverte sous-marine 26 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw027",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Carcasse de Bobcat Key",
+      "description": "Découverte sous-marine 27 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw028",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Ossements aquatiques",
+      "description": "Découverte sous-marine 28 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw029",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Carcasse de Capri Sound",
+      "description": "Découverte sous-marine 29 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Mariana County",
+      "region": "Mariana County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw030",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Installation BURG 3",
+      "description": "Découverte sous-marine 30 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Kelly County",
+      "region": "Kelly County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw031",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Cercle de selfies",
+      "description": "Découverte sous-marine 31 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Kelly County",
+      "region": "Kelly County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw032",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Sculpture du kraken",
+      "description": "Découverte sous-marine 32 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Vice-Dale County",
+      "region": "Vice-Dale County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "uw033",
+      "group": "collections",
+      "chapter": "explore",
+      "cat": "Découverte sous-marine",
+      "title": "Installation BURG 2",
+      "description": "Découverte sous-marine 33 selon PowerPyx. Comparer le repère de la soluce avec la carte du jeu.",
+      "deadline": "À explorer ; limite non documentée",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        59,
+        57
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "location": "Leonard County",
+      "region": "Leonard County",
+      "guide": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    },
+    {
+      "id": "cd001",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Kingpin Bowling",
+      "description": "Carte murale chez Brooks Boatworks",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "0300",
+      "location": "Port Gellhorn",
+      "region": "Port Gellhorn"
+    },
+    {
+      "id": "cd002",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Brooks Boatworks",
+      "description": "Carte murale à l’étage",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "6823",
+      "location": "Port Gellhorn",
+      "region": "Port Gellhorn"
+    },
+    {
+      "id": "cd003",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Motel La Cascara",
+      "description": "Chambre du lieutenant",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "6969",
+      "location": "Port Gellhorn",
+      "region": "Port Gellhorn"
+    },
+    {
+      "id": "cd004",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Caravane de Cottonmouth Lake",
+      "description": "Cartes postales près du lit",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "44017",
+      "location": "Grassrivers",
+      "region": "Grassrivers"
+    },
+    {
+      "id": "cd005",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Planque de Watson Bay",
+      "description": "Courriel de la cuisine",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "1819",
+      "location": "Watson Bay",
+      "region": "Watson Bay"
+    },
+    {
+      "id": "cd006",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Delights Cabaret",
+      "description": "SMS de Vicki",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "2008",
+      "location": "Port Gellhorn",
+      "region": "Port Gellhorn"
+    },
+    {
+      "id": "cd007",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Sunrise RV Park",
+      "description": "Note des Kingfishers",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "6769",
+      "location": "Sunrise RV Park",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd008",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Casse Nova Auto",
+      "description": "Mur face au coffre",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "7777",
+      "location": "Hamlet",
+      "region": "Hamlet"
+    },
+    {
+      "id": "cd009",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Commerce de baskets",
+      "description": "Note de Drip Drops",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "4124",
+      "location": "La Perle",
+      "region": "La Perle"
+    },
+    {
+      "id": "cd010",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Garage de Janjak",
+      "description": "Note sur le réfrigérateur",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "4444",
+      "location": "La Perle",
+      "region": "La Perle"
+    },
+    {
+      "id": "cd011",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Casa Guardia",
+      "description": "Indice non renseigné",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "1965",
+      "location": "Casa Guardia",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd012",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Saber Shipping Yard",
+      "description": "Carte du bureau",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "8046",
+      "location": "Saber Shipping Yard",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd013",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Bureau Saber Shipping",
+      "description": "Sources divergentes, vérifier sur place",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "1122 / 1965",
+      "location": "Saber Shipping Yard",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd014",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Laboratoire de Pelican Valley",
+      "description": "Mot de passe PC",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "CLEAVES",
+      "location": "Pelican Valley",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd015",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Coffre de Pelican Valley",
+      "description": "Énigme sur ordinateur",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "0072",
+      "location": "Pelican Valley",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd016",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Porte du quai de Pelican Valley",
+      "description": "Note dans le coffre",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "0212",
+      "location": "Pelican Valley",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd017",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "The Thirsty Wolf",
+      "description": "Drapeau du gang",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "1982",
+      "location": "Est d’Ambrosia",
+      "region": "Ambrosia"
+    },
+    {
+      "id": "cd018",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Leonida Carrier Warehouse",
+      "description": "Courriel du PC",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "9256",
+      "location": "Balsero",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd019",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Chatfield Storage",
+      "description": "Portable dans un conteneur",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "5800",
+      "location": "Waxman Island",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd020",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Cabane de la tour de guet",
+      "description": "Post-it dans la tour",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "69185",
+      "location": "Mount Kalaga",
+      "region": "Mount Kalaga"
+    },
+    {
+      "id": "cd021",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Laverie abandonnée",
+      "description": "Sous la carte de collection",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "62412",
+      "location": "Belville",
+      "region": "Belville"
+    },
+    {
+      "id": "cd022",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Palmer Fishing Warehouse",
+      "description": "Ordinateur au rez-de-chaussée",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "1886",
+      "location": "Bobcat Key",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd023",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Hôtel Marbelle",
+      "description": "Note sur le toit",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "955214",
+      "location": "Crosstown",
+      "region": "Crosstown"
+    },
+    {
+      "id": "cd024",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Coffre Black Eagle",
+      "description": "Date sur le PC",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "031462",
+      "location": "Balsero",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd025",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Porte Black Eagle",
+      "description": "Chiffres sur la cible",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "789987",
+      "location": "Balsero",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd026",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Farm Fix",
+      "description": "Carnet sur l’établi",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "2121",
+      "location": "Belville",
+      "region": "Belville"
+    },
+    {
+      "id": "cd027",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Hangar de Pete",
+      "description": "Porte rouge",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "3718",
+      "location": "Sundown Private Airfield",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd028",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Moonstone",
+      "description": "Frais de labo",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "0420",
+      "location": "Moonstone",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd029",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Entrepôt de Brian",
+      "description": "Frais de labo",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "7700",
+      "location": "Entrepôt de Brian",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd030",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Garage de la Vamos",
+      "description": "Autocollants dans la maison",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "2727",
+      "location": "Grayson",
+      "region": "Grayson"
+    },
+    {
+      "id": "cd031",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Garage Red Apple Orchard",
+      "description": "Magazine dans la grange",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "360782",
+      "location": "Ouest de Manifest Canyon",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd032",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Garage de Première impression",
+      "description": "Notes du téléphone",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "2404",
+      "location": "Mission First Impressions",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd033",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Ordinateur de Boobie",
+      "description": "Mot de passe",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "MuffinsQueen15",
+      "location": "Appartement",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd034",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Garage de Vanessa",
+      "description": "Messages sur le portable de Boobie",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "92665",
+      "location": "La Perle",
+      "region": "La Perle"
+    },
+    {
+      "id": "cd035",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Garage de la maison de fête",
+      "description": "Indice dans la maison",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "092319",
+      "location": "Sud-est de Key Lento",
+      "region": "Key Lento"
+    },
+    {
+      "id": "cd036",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Casa de Empeño",
+      "description": "Vérifier la fiche de mission ; variable en exploration",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "1680",
+      "location": "Mission de Yasmani",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd037",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Richardson Jewelry",
+      "description": "Vérifier la fiche de mission ; variable en exploration",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "6815",
+      "location": "Mission de Yasmani",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd038",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Donovan Banks & Co.",
+      "description": "Vérifier la fiche de mission ; variable en exploration",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "0104",
+      "location": "Mission de Yasmani",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd039",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Bunker extraterrestre",
+      "description": "Compter les barres au-dessus du clavier",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "Variable",
+      "location": "South Point Airfield (signalé)",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "cd040",
+      "group": "codes",
+      "chapter": "explore",
+      "cat": "Code",
+      "title": "Coffres des commerces et banques",
+      "description": "Chercher l’indice de sa propre partie",
+      "deadline": "Code de jeu ; vérifier le contexte",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        60,
+        61
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "code": "Variable",
+      "location": "Leonida",
+      "region": "Autres lieux"
+    },
+    {
+      "id": "st1-01",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Prologue",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 1,
+      "original": "Prologue",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-02",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Partie de pêche (Gone Fishing)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 2,
+      "original": "Gone Fishing",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-03",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Aux armes (Gear Up)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 3,
+      "original": "Gear Up",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-04",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Juste une égratignure (Just a Scratch)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 4,
+      "original": "Just a Scratch",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-05",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Frais de labo (Lab Fees)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 5,
+      "original": "Lab Fees",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-06",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Attention indésirable (Unwanted Attention)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 6,
+      "original": "Unwanted Attention",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-07",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Plomberie (Pipework)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 7,
+      "original": "Pipework",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-08",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Hé, Arnold ! (Hey Arnold!)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 8,
+      "original": "Hey Arnold!",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-09",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Island Dreams",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 9,
+      "original": "Island Dreams",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-10",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Feng Shui",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 10,
+      "original": "Feng Shui",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-11",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Enfin libre (Coming Home)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 11,
+      "original": "Coming Home",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-12",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Buckme (Buck Me)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 12,
+      "original": "Buck Me",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-13",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Nettoyer après Donnie (Clean Up After Donnie)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 13,
+      "original": "Clean Up After Donnie",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-14",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Terre à terre (Down to Earth)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 14,
+      "original": "Down to Earth",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-15",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Ciel dégagé (Clear Skies)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 15,
+      "original": "Clear Skies",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-16",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Permission de sortie (Day Release)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 16,
+      "original": "Day Release",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-17",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Bourbier (Swamped)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 17,
+      "original": "Swamped",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-18",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "ByeBye Don (Don Gone)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 18,
+      "original": "Don Gone",
+      "secretTitle": true
+    },
+    {
+      "id": "st1-19",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Recalibration",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 19,
+      "original": "Recalibration",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-20",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Piège à touristes (Tourist Trap)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 20,
+      "original": "Tourist Trap",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-21",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Home Sweet Home",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 21,
+      "original": "Home Sweet Home",
+      "secretTitle": false
+    },
+    {
+      "id": "st1-22",
+      "group": "story",
+      "chapter": "c1",
+      "cat": "Mission principale",
+      "title": "Sortie d’hôpital (Discharge Time)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": false,
+      "added": "2026-11-25",
+      "order": 22,
+      "original": "Discharge Time",
+      "secretTitle": false
+    },
+    {
+      "id": "st2-01",
+      "group": "story",
+      "chapter": "c2",
+      "cat": "Mission principale",
+      "title": "What's in the Bag?",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 1,
+      "original": "What's in the Bag?",
+      "secretTitle": true
+    },
+    {
+      "id": "st2-02",
+      "group": "story",
+      "chapter": "c2",
+      "cat": "Mission principale",
+      "title": "Ambulance Chaser",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 2,
+      "original": "Ambulance Chaser",
+      "secretTitle": true
+    },
+    {
+      "id": "st2-03",
+      "group": "story",
+      "chapter": "c2",
+      "cat": "Mission principale",
+      "title": "Just Moved In",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 3,
+      "original": "Just Moved In",
+      "secretTitle": true
+    },
+    {
+      "id": "st2-04",
+      "group": "story",
+      "chapter": "c2",
+      "cat": "Mission principale",
+      "title": "Girls' Trip",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 4,
+      "original": "Girls' Trip",
+      "secretTitle": true
+    },
+    {
+      "id": "st2-05",
+      "group": "story",
+      "chapter": "c2",
+      "cat": "Mission principale",
+      "title": "Moses",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 5,
+      "original": "Moses",
+      "secretTitle": true
+    },
+    {
+      "id": "st2-06",
+      "group": "story",
+      "chapter": "c2",
+      "cat": "Mission principale",
+      "title": "Daily Driver",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 6,
+      "original": "Daily Driver",
+      "secretTitle": true
+    },
+    {
+      "id": "st2-07",
+      "group": "story",
+      "chapter": "c2",
+      "cat": "Mission principale",
+      "title": "Slam Dunk",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 7,
+      "original": "Slam Dunk",
+      "secretTitle": true
+    },
+    {
+      "id": "st2-08",
+      "group": "story",
+      "chapter": "c2",
+      "cat": "Mission principale",
+      "title": "Course matinale (Breakfast Run)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 8,
+      "original": "Breakfast Run",
+      "secretTitle": true
+    },
+    {
+      "id": "st2-09",
+      "group": "story",
+      "chapter": "c2",
+      "cat": "Mission principale",
+      "title": "Pause café (Coffee Break)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 9,
+      "original": "Coffee Break",
+      "secretTitle": true
+    },
+    {
+      "id": "st2-10",
+      "group": "story",
+      "chapter": "c2",
+      "cat": "Mission principale",
+      "title": "Afternoon Delight",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 10,
+      "original": "Afternoon Delight",
+      "secretTitle": true
+    },
+    {
+      "id": "st2-11",
+      "group": "story",
+      "chapter": "c2",
+      "cat": "Mission principale",
+      "title": "Checking Out",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 11,
+      "original": "Checking Out",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-01",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Welcome to Vice City",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 1,
+      "original": "Welcome to Vice City",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-02",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Dealer's Choice",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 2,
+      "original": "Dealer's Choice",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-03",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Meet the Heders",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 3,
+      "original": "Meet the Heders",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-04",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Dubious Provenance",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 4,
+      "original": "Dubious Provenance",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-05",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Mami Knows Best",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 5,
+      "original": "Mami Knows Best",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-06",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "South Leonida Real Estate",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 6,
+      "original": "South Leonida Real Estate",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-07",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Tyrone",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 7,
+      "original": "Tyrone",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-08",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Here, Kitty Kitty",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 8,
+      "original": "Here, Kitty Kitty",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-09",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Car Service",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 9,
+      "original": "Car Service",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-10",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Top Billing",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 10,
+      "original": "Top Billing",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-11",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Boobie Time",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 11,
+      "original": "Boobie Time",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-12",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "First Impressions",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 12,
+      "original": "First Impressions",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-13",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Caught Slipping",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 13,
+      "original": "Caught Slipping",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-14",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Crosstown Traffic",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 14,
+      "original": "Crosstown Traffic",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-15",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Credit Check",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 15,
+      "original": "Credit Check",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-16",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Steal the Zorrusso for Randy",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 16,
+      "original": "Steal the Zorrusso for Randy",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-17",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Sinfrontera National Bank",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 17,
+      "original": "Sinfrontera National Bank",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-18",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Security Expert",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 18,
+      "original": "Security Expert",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-19",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Ride or Die",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 19,
+      "original": "Ride or Die",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-20",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Company Property",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 20,
+      "original": "Company Property",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-21",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "The Missing Link",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 21,
+      "original": "The Missing Link",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-22",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Safe Word",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 22,
+      "original": "Safe Word",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-23",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Cooties",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 23,
+      "original": "Cooties",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-24",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Bricked Up",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 24,
+      "original": "Bricked Up",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-25",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Hidden Charges",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 25,
+      "original": "Hidden Charges",
+      "secretTitle": true
+    },
+    {
+      "id": "st3-26",
+      "group": "story",
+      "chapter": "c3",
+      "cat": "Mission principale",
+      "title": "Le coup du cartel (The Cartel Heist)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 26,
+      "original": "The Cartel Heist",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-01",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Ocean Beach",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 1,
+      "original": "Ocean Beach",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-02",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Another Life",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 2,
+      "original": "Another Life",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-03",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Company Cars",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 3,
+      "original": "Company Cars",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-04",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Lawyer Up",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 4,
+      "original": "Lawyer Up",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-05",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Party Hard",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 5,
+      "original": "Party Hard",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-06",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Heavy Lifting",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 6,
+      "original": "Heavy Lifting",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-07",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Photo/Shoot",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 7,
+      "original": "Photo/Shoot",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-08",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Making Gainz",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 8,
+      "original": "Making Gainz",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-09",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Watch It",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 9,
+      "original": "Watch It",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-10",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Cash Injections",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 10,
+      "original": "Cash Injections",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-11",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Amateur Hour",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 11,
+      "original": "Amateur Hour",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-12",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Dirty Work",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 12,
+      "original": "Dirty Work",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-13",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Too Much Baggage",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 13,
+      "original": "Too Much Baggage",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-14",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Adventures in Babysitting",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 14,
+      "original": "Adventures in Babysitting",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-15",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Fresh Evidence",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 15,
+      "original": "Fresh Evidence",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-16",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Power Play",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 16,
+      "original": "Power Play",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-17",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Jeu d’enfant (Child's Play)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 17,
+      "original": "Child's Play",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-18",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Têtes d’affiche (Headliners)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 18,
+      "original": "Headliners",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-19",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Close Surveillance",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 19,
+      "original": "Close Surveillance",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-20",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Delivery Method",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 20,
+      "original": "Delivery Method",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-21",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Team Building",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 21,
+      "original": "Team Building",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-22",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Fully Catered",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 22,
+      "original": "Fully Catered",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-23",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Trafic aérien (VCIA Takedown)",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 23,
+      "original": "VCIA Takedown",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-24",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Sunset",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 24,
+      "original": "Sunset",
+      "secretTitle": true
+    },
+    {
+      "id": "st4-25",
+      "group": "story",
+      "chapter": "c4",
+      "cat": "Mission principale",
+      "title": "Starting From Zero",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 25,
+      "original": "Starting From Zero",
+      "secretTitle": true
+    },
+    {
+      "id": "st5-01",
+      "group": "story",
+      "chapter": "c5",
+      "cat": "Mission principale",
+      "title": "Bird in the Hand",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 1,
+      "original": "Bird in the Hand",
+      "secretTitle": true
+    },
+    {
+      "id": "st5-02",
+      "group": "story",
+      "chapter": "c5",
+      "cat": "Mission principale",
+      "title": "Taking Liberties",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 2,
+      "original": "Taking Liberties",
+      "secretTitle": true
+    },
+    {
+      "id": "st5-03",
+      "group": "story",
+      "chapter": "c5",
+      "cat": "Mission principale",
+      "title": "VC Baby",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 3,
+      "original": "VC Baby",
+      "secretTitle": true
+    },
+    {
+      "id": "st5-04",
+      "group": "story",
+      "chapter": "c5",
+      "cat": "Mission principale",
+      "title": "Doggie Bag",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 4,
+      "original": "Doggie Bag",
+      "secretTitle": true
+    },
+    {
+      "id": "st5-05",
+      "group": "story",
+      "chapter": "c5",
+      "cat": "Mission principale",
+      "title": "Operation Savage Glory",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 5,
+      "original": "Operation Savage Glory",
+      "secretTitle": true
+    },
+    {
+      "id": "st5-06",
+      "group": "story",
+      "chapter": "c5",
+      "cat": "Mission principale",
+      "title": "Protective Custody",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 6,
+      "original": "Protective Custody",
+      "secretTitle": true
+    },
+    {
+      "id": "st5-07",
+      "group": "story",
+      "chapter": "c5",
+      "cat": "Mission principale",
+      "title": "The End of the Road",
+      "description": "Ordre indicatif dans le chapitre ; certaines missions peuvent être jouées dans un ordre différent. Intitulé français non vérifié.",
+      "deadline": "Histoire principale",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        63,
+        47
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "order": 7,
+      "original": "The End of the Road",
+      "secretTitle": true
+    },
+    {
+      "id": "eg061",
+      "group": "easter",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Les Tortues Ninja",
+      "description": "Chercher le liquide vert sous les marches et les petites tortues près des pizzas. Scanner la substance avec WAiNK.",
+      "deadline": "Point de non-retour non documenté",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        64
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "location": "Station de pompage, nord de Millport",
+      "guide": "https://vicecitydb.org/easter-eggs/tallaloko-storm-drain-ninja-turtles",
+      "reward": "Curiosité WAiNK",
+      "conditions": "Exploration libre",
+      "video": "https://www.youtube.com/watch?v=-WL1NhD_t58",
+      "thumbnail": "https://i.ytimg.com/vi/-WL1NhD_t58/hqdefault.jpg",
+      "region": "Millport"
+    },
+    {
+      "id": "eg062",
+      "group": "easter",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Scarface — le motel et le Little Friend W-10",
+      "description": "Essayer la première porte à l’étage, contourner le balcon et revenir devant le motel. Après la scène, remonter chercher l’objet.",
+      "deadline": "Point de non-retour non documenté",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        65
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "location": "Sunlite Motel, Shore Drive, Ocean Beach",
+      "guide": "https://vicecitydb.org/easter-eggs/scarface-sunlite-motel-chainsaw-scene",
+      "reward": "Little Friend W-10",
+      "conditions": "12 h–13 h (heure du jeu)",
+      "region": "Ocean Beach",
+      "visualGuide": "https://www.dexerto.com/wikis/gta-6/easter-eggs/scarface/"
+    },
+    {
+      "id": "eg063",
+      "group": "easter",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Survol OVNI de la maison soucoupe",
+      "description": "Monter par l’échelle arrière et s’asseoir sur le toit.",
+      "deadline": "Point de non-retour non documenté",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        66
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "location": "Ouest d’Ambrosia, Maple Ln / Cedar St",
+      "guide": "https://vicecitydb.org/easter-eggs/spaceship-house-ufo-flyover",
+      "reward": "Succès La vérité est ailleurs si premier contact, selon le guide",
+      "conditions": "Nuit, après 2 h conseillé",
+      "video": "https://www.youtube.com/watch?v=t-tzRvG5M80",
+      "thumbnail": "https://i.ytimg.com/vi/t-tzRvG5M80/hqdefault.jpg",
+      "region": "Ambrosia"
+    },
+    {
+      "id": "eg064",
+      "group": "easter",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Clavier musical des anciens GTA",
+      "description": "Repérer un studio et utiliser la démonstration du clavier.",
+      "deadline": "Point de non-retour non documenté",
+      "sev": "optionnel",
+      "confidence": "signale",
+      "sources": [
+        67
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "location": "Vespucci Island (adresse exacte inconnue)",
+      "guide": "https://vicecitydb.org/easter-eggs/vespucci-studio-keyboard-gta-themes",
+      "reward": "Aucune récompense documentée",
+      "conditions": "Exploration libre",
+      "region": "Vespucci Island"
+    },
+    {
+      "id": "eg065",
+      "group": "easter",
+      "chapter": "explore",
+      "cat": "Clin d’œil",
+      "title": "Fontaine de jouvence",
+      "description": "Suivre le chemin vers le kiosque ouvert et boire à la fontaine.",
+      "deadline": "Point de non-retour non documenté",
+      "sev": "optionnel",
+      "confidence": "confirme",
+      "sources": [
+        68
+      ],
+      "spoiler": true,
+      "added": "2026-11-25",
+      "location": "Parc au sud de la place ronde du nord de Capri",
+      "guide": "https://vicecitydb.org/easter-eggs/capri-fountain-of-youth",
+      "reward": "Bonus de santé, endurance et concentration ; durée non établie",
+      "conditions": "Exploration libre",
+      "video": "https://www.youtube.com/watch?v=i_BZKVXd3j4",
+      "thumbnail": "https://i.ytimg.com/vi/i_BZKVXd3j4/hqdefault.jpg",
+      "region": "Capri"
     }
   ],
   "sources": [
@@ -4200,6 +9287,108 @@
       "22 nov. 2026",
       "Hôtel Marbelle et coffre",
       "https://gta6-life.com/fr/guides/marbelle-hotel-gta-6/"
+    ],
+    [
+      "GTA6 GPS · carte communautaire",
+      "25 nov. 2026",
+      "Repères des Easter eggs et secrets",
+      "https://gta6gps.com/map/game/easter-eggs"
+    ],
+    [
+      "PowerPyx",
+      "25 nov. 2026 (consultation)",
+      "Liste des objectifs des 100 %",
+      "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/"
+    ],
+    [
+      "Numerama · Nicolas Lellouche",
+      "25 nov. 2026 (consultation)",
+      "Intitulés français des 55 succès",
+      "https://www.numerama.com/pop-culture/2378233-gta-6-voici-les-55-trophees-a-decrocher-pour-pour-obtenir-le-platine.html"
+    ],
+    [
+      "PowerPyx",
+      "25 nov. 2026 (consultation)",
+      "33 découvertes sous-marines : carte et captures",
+      "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/"
+    ],
+    [
+      "RaidDex · Chrix",
+      "25 nov. 2026 (consultation)",
+      "Codes et indices",
+      "https://raiddex.com/en/gta-6/guides/safe-codes"
+    ],
+    [
+      "GTABase",
+      "25 nov. 2026 (consultation)",
+      "Carte des coffres",
+      "https://www.gtabase.com/fr/gta-6/carte/?feature=safe"
+    ],
+    [
+      "Vice Map",
+      "25 nov. 2026 (consultation)",
+      "Carte intégrable et crédits",
+      "https://vice-map.com/embed"
+    ],
+    [
+      "OP.GG",
+      "25 nov. 2026 (consultation)",
+      "Ordre indicatif des missions",
+      "https://op.gg/fr/gta6/missions"
+    ],
+    [
+      "Vice City DB",
+      "25 nov. 2026 (consultation)",
+      "Les Tortues Ninja",
+      "https://vicecitydb.org/easter-eggs/tallaloko-storm-drain-ninja-turtles"
+    ],
+    [
+      "Vice City DB",
+      "25 nov. 2026 (consultation)",
+      "Scarface — le motel et le Little Friend W-10",
+      "https://vicecitydb.org/easter-eggs/scarface-sunlite-motel-chainsaw-scene"
+    ],
+    [
+      "Vice City DB",
+      "25 nov. 2026 (consultation)",
+      "Survol OVNI de la maison soucoupe",
+      "https://vicecitydb.org/easter-eggs/spaceship-house-ufo-flyover"
+    ],
+    [
+      "Vice City DB",
+      "25 nov. 2026 (consultation)",
+      "Clavier musical des anciens GTA",
+      "https://vicecitydb.org/easter-eggs/vespucci-studio-keyboard-gta-themes"
+    ],
+    [
+      "Vice City DB",
+      "25 nov. 2026 (consultation)",
+      "Fontaine de jouvence",
+      "https://vicecitydb.org/easter-eggs/capri-fountain-of-youth"
+    ],
+    [
+      "Vice City DB",
+      "25 nov. 2026 (consultation)",
+      "Soluce et médias : Hôtel Marbelle hanté (Marbelle Hotel hanté)",
+      "https://vicecitydb.org/easter-eggs/marbelle-hotel-silent-hill"
+    ],
+    [
+      "Vice City DB",
+      "25 nov. 2026 (consultation)",
+      "Soluce et médias : Eclipse verte de Brian O’Conner",
+      "https://vicecitydb.org/easter-eggs/fast-furious-eclipse-vespucci-garage"
+    ],
+    [
+      "Vice City DB",
+      "25 nov. 2026 (consultation)",
+      "Soluce et médias : Portail vers Vice City 2002",
+      "https://vicecitydb.org/easter-eggs/vice-city-portal-tommy-vercetti-shirt"
+    ],
+    [
+      "Vice City DB",
+      "25 nov. 2026 (consultation)",
+      "Quête extraterrestre : détails et médias",
+      "https://vicecitydb.org/easter-eggs/alien-rescue-dream-quest"
     ]
   ],
   "chapters": [
@@ -4351,6 +9540,48 @@
       "Fiches ajoutées depuis la dernière version.",
       "Carte de Leonida",
       34
+    ],
+    "completion": [
+      "GUIDE",
+      "Objectifs des 100 %",
+      "35 objectifs du jeu. Le compteur mesure les objectifs validés, pas le pourcentage pondéré affiché par GTA VI.",
+      "Source / guide complet",
+      57
+    ],
+    "achievements": [
+      "GUIDE",
+      "Succès Xbox",
+      "55 succès à suivre manuellement. Les intitulés secrets sont masqués par défaut.",
+      "Source / guide complet",
+      58
+    ],
+    "collections": [
+      "GUIDE",
+      "Collections : découvertes sous-marines",
+      "33 sites à découvrir. Les noms descriptifs français sont indicatifs ; les cartes sont dans la soluce.",
+      "Source / guide complet",
+      59
+    ],
+    "codes": [
+      "GUIDE",
+      "Codes et mots de passe",
+      "Codes fixes et variables. Révèle les solutions seulement si nécessaire.",
+      "Source / guide complet",
+      60
+    ],
+    "story": [
+      "GUIDE",
+      "Ordre des missions",
+      "91 missions principales : ordre indicatif selon OP.GG ; certaines listes divergent.",
+      "Source / guide complet",
+      63
+    ],
+    "map": [
+      "GUIDE",
+      "Carte de Leonida",
+      "Carte interactive externe intégrable et répertoire des fiches localisées. Aucun repère inventé.",
+      "Source / guide complet",
+      62
     ]
   }
 }

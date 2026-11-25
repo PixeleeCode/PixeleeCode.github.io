@@ -15,3 +15,9 @@
 - Aucun serveur, compte ni synchronisation automatique. Transfert via fichier JSON (iCloud Drive, OneDrive, etc.). Les fichiers contiennent les notes personnelles : ne pas les publier dans le dépôt.
 - Chapitre actuel déclaré manuellement : les alertes ne marquent jamais une fiche manquée automatiquement. Filtres de personnage et localisations partiels ; aucune coordonnée inventée. Étapes et liens vidéo sur une sélection documentée.
 - Le badge Nouveau signifie ajouté au guide, pas nécessairement découvert ce jour. Les données antérieures sont conservées sans audit intégral.
+
+- Localisations affichées dans les fiches ouvertes (détails masqués si spoiler). Les repères GTA6 GPS sont des liens externes, pas une carte embarquée ; les positions communautaires sont approximatives. Aucune capture du jeu intégrée.
+
+
+## Extension encyclopédie
+Remplacer tous les fichiers du dépôt par le ZIP. Les identifiants et la clé de sauvegarde v2 sont conservés. Les objectifs des 100 %, succès, codes et missions principales sont indépendants de la progression des fiches d’exploration. Les compteurs sont manuels, sans connexion Xbox. Carte intégrée : Vice Map, chargée sur demande, Internet requis, suivi non synchronisé. Les médias sont des vignettes ou liens externes, pas des captures locales.
